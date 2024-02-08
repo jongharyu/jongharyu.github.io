@@ -7,9 +7,14 @@ years: [2023,2022,2021,2020,2018,2017]
 nav: true
 nav_order: 2
 ---
+
 <!-- _pages/publications.md -->
 <div class="publications">
 
+<<<<<<< HEAD
 {% bibliography -f {{ site.scholar.bibliography }} --group_by type,year --group_order ascending,descending %}
+=======
+{% bibliography %}
+>>>>>>> 7c2e1c2c6cea8e2b5818f31598399afc202a620b
 
 </div>
