@@ -11,10 +11,6 @@ nav_order: 2
 <!-- _pages/publications.md -->
 <div class="publications">
 
-<<<<<<< HEAD
 {% bibliography -f {{ site.scholar.bibliography }} --group_by type,year --group_order ascending,descending %}
-=======
-{% bibliography %}
->>>>>>> 7c2e1c2c6cea8e2b5818f31598399afc202a620b
 
 </div>

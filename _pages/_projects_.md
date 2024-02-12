@@ -4,13 +4,8 @@ title: projects
 permalink: /projects/
 description: to be updated.
 nav: true
-<<<<<<< HEAD:_pages/_projects_.md
 nav_order: 2
 display_categories: []
-=======
-nav_order: 3
-display_categories: [work, fun]
->>>>>>> 7c2e1c2c6cea8e2b5818f31598399afc202a620b:_pages/projects.md
 horizontal: false
 ---
 
