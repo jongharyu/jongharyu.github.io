@@ -55,7 +55,7 @@ At UCSD, I was a teaching assistant for the following courses:
 - [ECE 269 Linear Algebra and Applications](https://web.eng.ucsd.edu/~yhk/ece225b-spr18/) (Winter 2019)
 - [ECE 225B Universal Probability and Applications in Data Science](https://web.eng.ucsd.edu/~yhk/ece225b-spr18/) (Spring 2018)
     - designed hands-on programming assignments for the class based on Python.
-    - topics: Lempel-Ziv probability assignment, context-tree weighting, and universal portfolio.
+    - topics: Lempel--Ziv probability assignment, context-tree weighting, and universal portfolio.
 - [ECE 250 Random Processes](https://web.eng.ucsd.edu/~yhk/ece250-win17/) (Winter 2017)
 - [ECE 154C Communication Systems](https://web.eng.ucsd.edu/~yhk/ece154c-spr17/) (Spring 2017)
     - designed hands-on programming assignments for the class based on Julia.
