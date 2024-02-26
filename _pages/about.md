@@ -31,8 +31,11 @@ Before the graduate study, I received my B.S. in [Electrical and Computer Engine
 
 In general, I aim to develop fundamental yet practical algorithms in machine learning and data science.\
 My recent research topics include:
-- neural-net-based linear-algebra techniques for large-scale problems [[NeuralSVD](http://arxiv.org/abs/2402.03655); [WynerVAE](http://arxiv.org/abs/1905.10945); [kernel embedding without EVD](https://ieeexplore.ieee.org/document/9517746)];
-- sequential decision making / online learning [universal-gambling-based confidence sequences [[1]](http://arxiv.org/abs/2207.12382),[[2]](http://arxiv.org/abs/2402.03683); [universal-gambling-based parameter-free online learning](http://arxiv.org/abs/2202.02406)];
+- neural-net-based linear-algebra techniques for large-scale problems [[NeuralSVD](http://arxiv.org/abs/2402.03655)];
+- representation learning [[NeuralSVD](http://arxiv.org/abs/2402.03655); [WynerVAE](http://arxiv.org/abs/1905.10945); [kernel embedding without EVD](https://ieeexplore.ieee.org/document/9517746)];
+- sequential decision making / online learning
+  - universal-gambling-based confidence sequences [[1]](http://arxiv.org/abs/2207.12382),[[2]](http://arxiv.org/abs/2402.03683); 
+  - [universal-gambling-based parameter-free online learning](http://arxiv.org/abs/2202.02406);
 - learning with uncertainty [[how to improve evidential deep learning](http://arxiv.org/abs/2402.06160)].
 
 As an information theorist by training, 
