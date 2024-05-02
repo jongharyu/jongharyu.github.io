@@ -36,7 +36,7 @@ My recent research topics include:
 - sequential decision making / online learning
   - universal-gambling-based confidence sequences [[1]](http://arxiv.org/abs/2207.12382),[[2]](http://arxiv.org/abs/2402.03683); 
   - [universal-gambling-based parameter-free online learning](http://arxiv.org/abs/2202.02406);
-- learning with uncertainty [[where is the success of evidential deep learning coming from?](http://arxiv.org/abs/2402.06160)].
+- learning with uncertainty [[why is evidential deep learning succesful?](http://arxiv.org/abs/2402.06160)].
 
 As an information theorist by training, 
 I enjoy doing research by simplifying intricate ideas, unifying concepts, and generalizing them to address complex problems.
