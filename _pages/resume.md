@@ -9,7 +9,7 @@ nav: true
 
 ---
 ## education
-- **University of California San Diego**, 2015--2022.
+- **UC San Diego**, 2015--2022.
     - Ph.D. in  Electrical Engineering, June 2022.
         - Advisors: [Young-Han Kim](https://web.eng.ucsd.edu/~yhk/) and [Sanjoy Dasgupta](https://cseweb.ucsd.edu/~dasgupta/).
         - Thesis title: "[From Information Theory to Machine Learning Algorithms: A Few Vignettes](https://escholarship.org/uc/item/5fc8x66w)" (defended on 06/03/2022; [[slides]](../assets/pdf/talks/defense.pdf))
@@ -21,7 +21,7 @@ nav: true
 
 ---
 ## employment
-- **Massachusetts Institute of Technology**, 2022--
+- **MIT**, 2022--
     - Postdoctoral Associate, August 2022--present
     - Host: [Gregory W. Wornell](http://allegro.mit.edu/~gww/)
 
@@ -51,15 +51,19 @@ nav: true
     - Mentor: [Yoojin Choi](https://scholar.google.com/citations?user=haggDAwAAAAJ&hl=en).
 
 ## teaching experience
-At UCSD, I was a teaching assistant for the following courses:
-- [ECE 269 Linear Algebra and Applications](https://web.eng.ucsd.edu/~yhk/ece225b-spr18/) (Winter 2019)
-- [ECE 225B Universal Probability and Applications in Data Science](https://web.eng.ucsd.edu/~yhk/ece225b-spr18/) (Spring 2018)
-    - designed hands-on programming assignments for the class based on Python.
-    - topics: Lempel--Ziv probability assignment, context-tree weighting, and universal portfolio.
-- [ECE 250 Random Processes](https://web.eng.ucsd.edu/~yhk/ece250-win17/) (Winter 2017)
-- [ECE 154C Communication Systems](https://web.eng.ucsd.edu/~yhk/ece154c-spr17/) (Spring 2017)
-    - designed hands-on programming assignments for the class based on Julia.
-    - topics: basic source coding and channel coding algorithms.
+- **MIT**: as a postdoctoral instructor, I was in charge of the following course.
+    - [6.7800 Inference and Information](https://web.mit.edu/6.7800/www/info24.pdf) (Spring 2024)
+        - highlight: designed and lectured bonus sessions on advanced topics of the course.
+        - topics: minimax optimal bit prediction, large-deviation bounds, plug-and-play universal prediction, variational techniques in generative models.
+- **UCSD**: I was a teaching assistant for the following courses.
+    - [ECE 269 Linear Algebra and Applications](https://web.eng.ucsd.edu/~yhk/ece225b-spr18/) (Winter 2019)
+    - [ECE 225B Universal Probability and Applications in Data Science](https://web.eng.ucsd.edu/~yhk/ece225b-spr18/) (Spring 2018)
+        - highlight: designed hands-on programming assignments for the class based on Python.
+        - topics: Lempel--Ziv probability assignment, context-tree weighting, and universal portfolio.
+    - [ECE 250 Random Processes](https://web.eng.ucsd.edu/~yhk/ece250-win17/) (Winter 2017)
+    - [ECE 154C Communication Systems](https://web.eng.ucsd.edu/~yhk/ece154c-spr17/) (Spring 2017)
+        - highlight: designed hands-on programming assignments for the class based on Julia.
+        - topics: basic source coding and channel coding algorithms.
 
 ## selected graduate coursework
 - **ECE**: Information Theory, Universal Information Processing, Network Information Theory, Algebraic Coding Theory, Probabilistic Coding Theory, Random Processes, Dynamical Systems under Uncertainty, Image and Video Restoration, Semidefinite Optimization and Sum-Of-Squares.
