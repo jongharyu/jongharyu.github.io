@@ -361,22 +361,15 @@ We demonstrate the effectiveness of the proposed optimization framework for use 
 
 @misc{Ryu--Shen--Ghosh--Bu--Sattigerri--Wornell2024,
   abbr={arXiv},
-  title={Improved Evidential Deep Learning via a Mixture of Dirichlet Distributions},
-  author={Ryu*, J. Jon and Shen*, Maohao and Ghosh, Soumya and Bu, Yuheng and Sattigeri, Prasanna and Das, Subhro and Wornell, Gregory W.},
+  title={Are Uncertainty Quantification Capabilities of Evidential Deep Learning a Mirage?},
+  author={Shen*, Maohao and Ryu*, J. Jon and Ghosh, Soumya and Bu, Yuheng and Sattigeri, Prasanna and Das, Subhro and Wornell, Gregory W.},
   year={2024},
   archivePrefix={arXiv},
   primaryClass={cs.LG},
-  author+an={1=highlight},
+  author+an={2=highlight},
   arxiv={2402.06160},
   selected={false},
-  abstract={This paper explores a modern predictive uncertainty estimation approach, called evidential deep learning (EDL), in which a single neural network model is trained to learn a meta distribution over the predictive distribution by minimizing a specific objective function. 
-  Despite their strong empirical performance, recent studies by Bengs et al. identify a fundamental pitfall of the existing methods: the learned epistemic uncertainty may not vanish even in the infinite-sample limit. 
-  We corroborate the observation by providing a unifying view of a class of widely used objectives from the literature. 
-  Our analysis reveals that the EDL methods essentially train a meta distribution by minimizing a certain divergence measure between the distribution and a sample-size-independent target distribution, resulting in spurious epistemic uncertainty. 
-  Grounded in theoretical principles, we propose learning a consistent target distribution by modeling it with a mixture of Dirichlet distributions and learning via variational inference. 
-  Afterward, a final meta distribution model distills the learned uncertainty from the target model. 
-  Experimental results across various uncertainty-based downstream tasks demonstrate the superiority of our proposed method, and illustrate the practical implications arising from the consistency and inconsistency of learned epistemic uncertainty.
-  },
+  abstract={This paper questions the effectiveness of a modern predictive uncertainty quantification approach, called \emph{evidential deep learning} (EDL), in which a single neural network model is trained to learn a meta distribution over the predictive distribution by minimizing a specific objective function. Despite their perceived strong empirical performance on downstream tasks, a line of recent studies by Bengs et al. identify limitations of the existing methods to conclude their learned epistemic uncertainties are unreliable, e.g., in that they are non-vanishing even with infinite data. Building on and sharpening such analysis, we 1) provide a sharper understanding of the asymptotic behavior of a wide class of EDL methods by unifying various objective functions; 2) reveal that the EDL methods can be better interpreted as an out-of-distribution detection algorithm based on energy-based-models; and 3) conduct extensive ablation studies to better assess their empirical effectiveness with real-world datasets. Through all these analyses, we conclude that even when EDL methods are empirically effective on downstream tasks, this occurs despite their poor uncertainty quantification capabilities. Our investigation suggests that incorporating model uncertainty can help EDL methods faithfully quantify uncertainties and further improve performance on representative downstream tasks, albeit at the cost of additional computational complexity.},
   note={arXiv:2402.06160},
 }
 
