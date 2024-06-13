@@ -6,5 +6,7 @@ inline: true
 related_posts: false
 ---
 
-Three preprints about (1) [how to perform SVD using neural networks](http://arxiv.org/abs/2402.03655), (2) [how to construct time-uniform confidence sets for bounded vector-valued processes using gambling](http://arxiv.org/abs/2402.03683), and (3) [rethinking the success of evidential deep learning](https://arxiv.org/abs/2402.06160) have been posted on arXiv.\
+Three preprints about (1) [how to perform SVD using neural networks](http://arxiv.org/abs/2402.03655), 
+(2) [how to construct time-uniform confidence sets for bounded vector-valued processes using gambling](http://arxiv.org/abs/2402.03683), 
+and (3) [rethinking the success of evidential deep learning](https://arxiv.org/abs/2402.06160) have been posted on arXiv.
 Please reach out if you have any comments or questions on any of these!
