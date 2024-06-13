@@ -306,12 +306,12 @@ scholar:
   type_order: [misc, unpublished, book, article, inbook, proceedings, inproceedings, incollections, report, phdthesis]
   type_names:
     {
-      unpublished: working papers,
-      misc: preprints,
-      article: journal articles,
-      inproceedings: conference papers,
-      report: miscellaneous,
-      phdthesis: PhD thesis,
+      unpublished: Working papers,
+      misc: Preprints,
+      article: Journal articles,
+      inproceedings: Conference papers,
+      report: Miscellaneous,
+      phdthesis: Thesis,
     }
 
   source: /_bibliography/
