@@ -239,60 +239,6 @@ This result can be viewed as an extension of the seminal work of Cover and Orden
   abstract={This dissertation illustrates how certain information-theoretic ideas and views on learning problems can lead to new algorithms via concrete examples.The three information-theoretic strategies taken in this dissertation are (1) to abstract out the gist of a learning problem in the infinite-sample limit; (2) to reduce a learning problem into a probability estimation problem and plugging-in a "good" probability; and (3) to adapt and apply relevant results from information theory. These are applied to three topics in machine learning, including representation learning, nearest-neighbor methods, and universal information processing, where two problems are studied from each topic.},
 }
 
-% preprints
-@misc{Ryu--Kim2021,
-  abbr={arXiv},
-  title={One-Nearest-Neighbor Search Is All You Need for Minimax Optimal Regression and Classification},
-  author={Ryu, J. Jon and Kim, Young-Han},
-  year={2022},
-  archivePrefix={arXiv},
-  eprint={2202.02464},
-  primaryClass={math.ST},
-  author+an={1=highlight},
-  arxiv={2202.02464},
-  code={https://github.com/jongharyu/split-knn-rules},
-  selected={false},
-  abstract={Recently, Qiao, Duan, and Cheng~(2019) proposed a distributed nearest-neighbor classification method, in which a massive dataset is split into smaller groups, each processed with a $k$-nearest-neighbor classifier, and the final class label is predicted by a majority vote among these groupwise class labels.
-This paper shows that the distributed algorithm with $k=1$ over a sufficiently large number of groups attains a minimax optimal error rate up to a multiplicative logarithmic factor under some regularity conditions, for both regression and classification problems.
-Roughly speaking, distributed 1-nearest-neighbor rules with $M$ groups has a performance comparable to standard $\Theta(M)$-nearest-neighbor rules.
-In the analysis, alternative rules with a refined aggregation method are proposed and shown to attain exact minimax optimal rates.},
-  note={arXiv:2202.02464},
-}
-
-@misc{Ryu--Bhatt2022,
-  abbr={arXiv},
-  title={On Confidence Sequences for Bounded Random Processes via Universal Gambling Strategies},
-  author={Ryu, J. Jon and Bhatt, Alankrita},
-  year={2022},
-  archivePrefix={arXiv},
-  primaryClass={cs.IT},
-  author+an={1=highlight},
-  arxiv={2207.12382},
-  code={https://github.com/jongharyu/confidence-sequence-via-gambling},
-  selected={false},
-  abstract={This paper considers the problem of constructing a confidence sequence, which is a sequence of confidence intervals that hold uniformly over time, for estimating the mean of bounded real-valued random processes.
-This paper revisits the gambling-based approach established in the recent literature from a natural \emph{two-horse race} perspective, and demonstrates new properties of the resulting algorithm induced by Cover (1991)'s universal portfolio.
-The main result of this paper is a new algorithm based on a mixture of lower bounds, which closely approximates the performance of Cover's universal portfolio with constant per-round time complexity.
-A higher-order generalization of a lower bound on a logarithmic function in (Fan et al., 2015), which is developed as a key technique for the proposed algorithm, may be of independent interest.},
-  note={Submitted to <i>IEEE Trans. Inf. Theory</i> (minor revision).<br>arXiv:2207.12382},
-}
-
-@misc{Ryu--Choi--Kim--El-Khamy--Lee2022,
-  abbr={arXiv},
-  title={Learning with Succinct Common Representation with {W}yner's Common Information},
-  author={Ryu, J. Jon and Choi, Yoojin and Kim, Young-Han and El-Khamy, Mostafa and Lee, Jungwon},
-  year={2022},
-  author+an={1=highlight},
-  abstract={A new bimodal generative model is proposed for generating conditional and joint samples, accompanied with a training method with learning a succinct bottleneck representation.
-The proposed model, dubbed as the variational Wyner model, is designed based on two classical problems in network information theory---distributed simulation and channel synthesis---in which Wyner's common information arises as the fundamental limit on the succinctness of the common representation.
-The model is trained by minimizing the symmetric Kullback--Leibler divergence between variational and model distributions with regularization terms for common information, reconstruction consistency, and latent space matching terms, which is carried out via an adversarial density ratio estimation technique.
-The utility of the proposed approach is demonstrated through experiments for joint and conditional generation with synthetic and real-world datasets, as well as a challenging zero-shot image retrieval task.},
-  arxiv={1905.10945},
-  code={https://github.com/jongharyu/wyner-model},
-  selected={true},
-  note={Under revision; ``reject and resubmit'' from <i>{IEEE} Trans. Pattern Anal. Mach. Intell.</i><br>arXiv:1905.10945v2<br><a href="http://bayesiandeeplearning.org/2018/papers/122.pdf">{A preliminary version}</a> of this manuscript was presented at the Bayesian Deep Learning Workshop at NeurIPS 2018, and <a href="http://bayesiandeeplearning.org/2021/papers/67.pdf">{an abridged version}</a> of the current manuscript was presented at the Bayesian Deep Learning workshop at NeurIPS 2021.},
-}
-
 @inproceedings{Shah--Shen--Ryu--Das--Sattigeri--Bu--Wornell2023,
   abbr={ISIT},
   title={Group Fairness with Uncertainty in Sensitive Attributes},
@@ -361,6 +307,59 @@ We demonstrate the effectiveness of the proposed optimization framework for use 
   note={Spotlight (top 3.5%)},
 }
 
+% preprints
+@misc{Ryu--Kim2021,
+  abbr={arXiv},
+  title={One-Nearest-Neighbor Search Is All You Need for Minimax Optimal Regression and Classification},
+  author={Ryu, J. Jon and Kim, Young-Han},
+  year={2022},
+  archivePrefix={arXiv},
+  eprint={2202.02464},
+  primaryClass={math.ST},
+  author+an={1=highlight},
+  arxiv={2202.02464},
+  code={https://github.com/jongharyu/split-knn-rules},
+  selected={false},
+  abstract={Recently, Qiao, Duan, and Cheng~(2019) proposed a distributed nearest-neighbor classification method, in which a massive dataset is split into smaller groups, each processed with a $k$-nearest-neighbor classifier, and the final class label is predicted by a majority vote among these groupwise class labels.
+This paper shows that the distributed algorithm with $k=1$ over a sufficiently large number of groups attains a minimax optimal error rate up to a multiplicative logarithmic factor under some regularity conditions, for both regression and classification problems.
+Roughly speaking, distributed 1-nearest-neighbor rules with $M$ groups has a performance comparable to standard $\Theta(M)$-nearest-neighbor rules.
+In the analysis, alternative rules with a refined aggregation method are proposed and shown to attain exact minimax optimal rates.},
+}
+
+@misc{Ryu--Bhatt2022,
+  abbr={arXiv},
+  title={On Confidence Sequences for Bounded Random Processes via Universal Gambling Strategies},
+  author={Ryu, J. Jon and Bhatt, Alankrita},
+  year={2022},
+  archivePrefix={arXiv},
+  primaryClass={cs.IT},
+  author+an={1=highlight},
+  arxiv={2207.12382},
+  code={https://github.com/jongharyu/confidence-sequence-via-gambling},
+  selected={false},
+  abstract={This paper considers the problem of constructing a confidence sequence, which is a sequence of confidence intervals that hold uniformly over time, for estimating the mean of bounded real-valued random processes.
+This paper revisits the gambling-based approach established in the recent literature from a natural \emph{two-horse race} perspective, and demonstrates new properties of the resulting algorithm induced by Cover (1991)'s universal portfolio.
+The main result of this paper is a new algorithm based on a mixture of lower bounds, which closely approximates the performance of Cover's universal portfolio with constant per-round time complexity.
+A higher-order generalization of a lower bound on a logarithmic function in (Fan et al., 2015), which is developed as a key technique for the proposed algorithm, may be of independent interest.},
+  note={Submitted to <i>IEEE Trans. Inf. Theory</i> (minor revision).},
+}
+
+@misc{Ryu--Choi--Kim--El-Khamy--Lee2022,
+  abbr={arXiv},
+  title={Learning with Succinct Common Representation with {W}yner's Common Information},
+  author={Ryu, J. Jon and Choi, Yoojin and Kim, Young-Han and El-Khamy, Mostafa and Lee, Jungwon},
+  year={2022},
+  author+an={1=highlight},
+  abstract={A new bimodal generative model is proposed for generating conditional and joint samples, accompanied with a training method with learning a succinct bottleneck representation.
+The proposed model, dubbed as the variational Wyner model, is designed based on two classical problems in network information theory---distributed simulation and channel synthesis---in which Wyner's common information arises as the fundamental limit on the succinctness of the common representation.
+The model is trained by minimizing the symmetric Kullback--Leibler divergence between variational and model distributions with regularization terms for common information, reconstruction consistency, and latent space matching terms, which is carried out via an adversarial density ratio estimation technique.
+The utility of the proposed approach is demonstrated through experiments for joint and conditional generation with synthetic and real-world datasets, as well as a challenging zero-shot image retrieval task.},
+  arxiv={1905.10945},
+  code={https://github.com/jongharyu/wyner-model},
+  selected={true},
+  note={Under revision; ``reject and resubmit'' from <i>{IEEE} Trans. Pattern Anal. Mach. Intell.</i><br><a href="http://bayesiandeeplearning.org/2018/papers/122.pdf">{A preliminary version}</a> of this manuscript was presented at the Bayesian Deep Learning Workshop at NeurIPS 2018, and <a href="http://bayesiandeeplearning.org/2021/papers/67.pdf">{an abridged version}</a> of the current manuscript was presented at the Bayesian Deep Learning workshop at NeurIPS 2021.},
+}
+
 @misc{Ryu--Shen--Ghosh--Bu--Sattigerri--Wornell2024,
   abbr={arXiv},
   title={Are Uncertainty Quantification Capabilities of Evidential Deep Learning a Mirage?},
@@ -372,7 +371,25 @@ We demonstrate the effectiveness of the proposed optimization framework for use 
   arxiv={2402.06160},
   selected={false},
   abstract={This paper questions the effectiveness of a modern predictive uncertainty quantification approach, called \emph{evidential deep learning} (EDL), in which a single neural network model is trained to learn a meta distribution over the predictive distribution by minimizing a specific objective function. Despite their perceived strong empirical performance on downstream tasks, a line of recent studies by Bengs et al. identify limitations of the existing methods to conclude their learned epistemic uncertainties are unreliable, e.g., in that they are non-vanishing even with infinite data. Building on and sharpening such analysis, we 1) provide a sharper understanding of the asymptotic behavior of a wide class of EDL methods by unifying various objective functions; 2) reveal that the EDL methods can be better interpreted as an out-of-distribution detection algorithm based on energy-based-models; and 3) conduct extensive ablation studies to better assess their empirical effectiveness with real-world datasets. Through all these analyses, we conclude that even when EDL methods are empirically effective on downstream tasks, this occurs despite their poor uncertainty quantification capabilities. Our investigation suggests that incorporating model uncertainty can help EDL methods faithfully quantify uncertainties and further improve performance on representative downstream tasks, albeit at the cost of additional computational complexity.},
-  note={arXiv:2402.06160},
+}
+
+# working papers
+@unpublished{Jayashankar--Ryu--Xu--Wornell2024,
+  abbr={working},
+  title={Lifted Residual Score Estimation},
+  author={Jayashankar*, Tejas and Ryu*, J. Jon and Xu, Xiangxiang and Wornell, Gregory W.},
+  year={2024},
+  author+an={2=highlight},
+  selected={false},
+}
+
+@unpublished{Ryu--Shah--Wornell2024,
+  abbr={working},
+  title={A Unified View on Learning Unnormalized Distributions via Noise-Contrastive Estimation},
+  author={Ryu, J. Jon and Shah, Abhin and Wornell, Gregory W.},
+  year={2024},
+  author+an={1=highlight},
+  selected={false},
 }
 
 # unpublished technical reports
