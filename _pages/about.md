@@ -32,7 +32,7 @@ In general, I aim to develop principled and practical algorithms for machine lea
 My recent research topics include:
 
 - neural-net-based methods for large-scale spectral decomposition problems [[NeuralSVD](http://arxiv.org/abs/2402.03655)];
-- representation learning [[NeuralSVD](http://arxiv.org/abs/2402.03655); [WynerVAE](http://arxiv.org/abs/1905.10945); [kernel embedding without EVD](https://ieeexplore.ieee.org/document/9517746)];
+- representation learning [[NeuralSVD](http://arxiv.org/abs/2402.03655); [variational Wyner model](http://arxiv.org/abs/1905.10945); [kernel embedding without EVD](https://ieeexplore.ieee.org/document/9517746)];
 - sequential decision making / online learning
   - from universal gambling to time-uniform confidence sets [[1]](http://arxiv.org/abs/2207.12382),[[2]](http://arxiv.org/abs/2402.03683);
   - [from universal gambling to parameter-free online learning](http://arxiv.org/abs/2202.02406);
