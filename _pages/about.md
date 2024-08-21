@@ -35,7 +35,7 @@ My recent research topics include:
 - representation learning 
   - structured representation learning ([NeuralSVD [ICML2024]](http://arxiv.org/abs/2402.03655))
   - information-theoretic common representation learning ([variational Wyner model [arXiv]](http://arxiv.org/abs/1905.10945))
-  - kernel embedding without EVD [[ISIT2021]](https://ieeexplore.ieee.org/document/9517746)
+  - [fast kernel embedding without EVD [ISIT2021]](https://ieeexplore.ieee.org/document/9517746)
 - sequential decision making / online learning
   - from universal gambling to time-uniform confidence sets [[TIT2024+]](http://arxiv.org/abs/2207.12382), [[ICML2024]](http://arxiv.org/abs/2402.03683)
   - from universal gambling to parameter-free online learning [[AISTATS2022]](http://arxiv.org/abs/2202.02406)
