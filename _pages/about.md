@@ -31,12 +31,16 @@ Before the graduate study, I received my B.S. in [Electrical and Computer Engine
 In general, I aim to develop principled and practical algorithms for machine learning and data science.
 My recent research topics include:
 
-- neural-net-based methods for large-scale spectral decomposition problems [[NeuralSVD](http://arxiv.org/abs/2402.03655)];
-- representation learning [[NeuralSVD](http://arxiv.org/abs/2402.03655); [variational Wyner model](http://arxiv.org/abs/1905.10945); [kernel embedding without EVD](https://ieeexplore.ieee.org/document/9517746)];
+- neural-net-based methods for large-scale spectral decomposition problems ([NeuralSVD [ICML2024]](http://arxiv.org/abs/2402.03655))
+- representation learning 
+  - structured representation learning ([NeuralSVD [ICML2024]](http://arxiv.org/abs/2402.03655))
+  - information-theoretic common representation learning ([variational Wyner model [arXiv]](http://arxiv.org/abs/1905.10945))
+  - kernel embedding without EVD [[ISIT2021]](https://ieeexplore.ieee.org/document/9517746)
 - sequential decision making / online learning
-  - from universal gambling to time-uniform confidence sets [[1]](http://arxiv.org/abs/2207.12382),[[2]](http://arxiv.org/abs/2402.03683);
-  - [from universal gambling to parameter-free online learning](http://arxiv.org/abs/2202.02406);
-- learning with uncertainty [[is evidential deep learning reliable?](http://arxiv.org/abs/2402.06160)].
+  - from universal gambling to time-uniform confidence sets [[TIT2024+]](http://arxiv.org/abs/2207.12382), [[ICML2024]](http://arxiv.org/abs/2402.03683)
+  - from universal gambling to parameter-free online learning [[AISTATS2022]](http://arxiv.org/abs/2202.02406)
+- learning with uncertainty
+  - is evidential deep learning reliable? [[arXiv](http://arxiv.org/abs/2402.06160)].
 
 As an information theorist by training, I enjoy doing research by simplifying intricate ideas, unifying concepts, and generalizing them to address complex problems.
 
