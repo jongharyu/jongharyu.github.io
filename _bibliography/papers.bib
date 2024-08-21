@@ -95,7 +95,46 @@
 
 @PREAMBLE{"\newcommand{\noopsort}[1]{}"}
 
+% journal papers
+@article{Ryu--Ganguly--Kim--Noh--Lee2018,
+  abbr={TIT},
+  title={Nearest neighbor density functional estimation from inverse {L}aplace transform},
+  author={Ryu*, J. Jon and Ganguly*, Shouvik and Kim, Young-Han and Noh, Yung-Kyun and Lee, Daniel D.},
+  journal=tit,
+  year={2022},
+  month=feb,
+  archivePrefix={arXiv},
+  eprint={1805.08342},
+  primaryClass={math.ST},
+  author+an={1=highlight,equal;2=equal},
+  html={https://ieeexplore.ieee.org/document/9712283},
+  pdf={tit2022.pdf},
+  arxiv={1805.08342},
+  code={https://github.com/jongharyu/knn-functional-estimation},
+  selected={true},
+  abstract={A new approach to $L_2$-consistent estimation of a general density functional using k-nearest neighbor distances is proposed, where the functional under consideration is in the form of the expectation of some function f of the densities at each point. The estimator is designed to be asymptotically unbiased, using the convergence of the normalized volume of a $k$-nearest neighbor ball to a Gamma distribution in the large-sample limit, and naturally involves the inverse Laplace transform of a scaled version of the function $f$. Some instantiations of the proposed estimator recover existing $k$-nearest neighbor based estimators of Shannon and Rényi entropies and Kullback–Leibler and Rényi divergences, and discover new consistent estimators for many other functionals such as logarithmic entropies and divergences. The $L_2$-consistency of the proposed estimator is established for a broad class of densities for general functionals, and the convergence rate in mean squared error is established as a function of the sample size for smooth, bounded densities.},
+}
 
+@article{Ryu--Bhatt2022,
+  abbr={TIT},
+  title={On Confidence Sequences for Bounded Random Processes via Universal Gambling Strategies},
+  author={Ryu, J. Jon and Bhatt, Alankrita},
+  year={2024},
+  archivePrefix={arXiv},
+  primaryClass={cs.IT},
+  author+an={1=highlight},
+  journal=tit,
+  arxiv={2207.12382},
+  code={https://github.com/jongharyu/confidence-sequence-via-gambling},
+  selected={true},
+  abstract={This paper considers the problem of constructing a confidence sequence, which is a sequence of confidence intervals that hold uniformly over time, for estimating the mean of bounded real-valued random processes.
+This paper revisits the gambling-based approach established in the recent literature from a natural \emph{two-horse race} perspective, and demonstrates new properties of the resulting algorithm induced by Cover (1991)'s universal portfolio.
+The main result of this paper is a new algorithm based on a mixture of lower bounds, which closely approximates the performance of Cover's universal portfolio with constant per-round time complexity.
+A higher-order generalization of a lower bound on a logarithmic function in (Fan et al., 2015), which is developed as a key technique for the proposed algorithm, may be of independent interest.},
+  note={To appear in <i>IEEE Trans. Inf. Theory</i>.},
+}
+
+% conference proceedings
 @inproceedings{Ryu--Kim2018CUDE,
   abbr={ICIP},
   title={Conditional distribution learning with neural networks and its application to universal image denoising},
@@ -138,25 +177,6 @@
   html={https://ieeexplore.ieee.org/document/8636049/},
   pdf={allerton2018.pdf},
   abstract={A randomized decoder that generates the message estimate according to the posterior distribution is known to achieve the reliability comparable to that of the maximum a posteriori probability decoder. With a goal of practical implementations of such a randomized decoder, several Monte Carlo techniques, such as rejection sampling, Gibbs sampling, and the Metropolis algorithm, are adapted to the problem of efficient sampling from the posterior distribution. Analytical and experimental results compare the complexity and performance of these Monte Carlo decoders for simple linear codes and the binary symmetric channel.},
-}
-
-@article{Ryu--Ganguly--Kim--Noh--Lee2018,
-  abbr={TIT},
-  title={Nearest neighbor density functional estimation from inverse {L}aplace transform},
-  author={Ryu*, J. Jon and Ganguly*, Shouvik and Kim, Young-Han and Noh, Yung-Kyun and Lee, Daniel D.},
-  journal=tit,
-  year={2022},
-  month=feb,
-  archivePrefix={arXiv},
-  eprint={1805.08342},
-  primaryClass={math.ST},
-  author+an={1=highlight,equal;2=equal},
-  html={https://ieeexplore.ieee.org/document/9712283},
-  pdf={tit2022.pdf},
-  arxiv={1805.08342},
-  code={https://github.com/jongharyu/knn-functional-estimation},
-  selected={true},
-  abstract={A new approach to $L_2$-consistent estimation of a general density functional using k-nearest neighbor distances is proposed, where the functional under consideration is in the form of the expectation of some function f of the densities at each point. The estimator is designed to be asymptotically unbiased, using the convergence of the normalized volume of a $k$-nearest neighbor ball to a Gamma distribution in the large-sample limit, and naturally involves the inverse Laplace transform of a scaled version of the function $f$. Some instantiations of the proposed estimator recover existing $k$-nearest neighbor based estimators of Shannon and Rényi entropies and Kullback–Leibler and Rényi divergences, and discover new consistent estimators for many other functionals such as logarithmic entropies and divergences. The $L_2$-consistency of the proposed estimator is established for a broad class of densities for general functionals, and the convergence rate in mean squared error is established as a function of the sample size for smooth, bounded densities.},
 }
 
 @inproceedings{Ryu--Huang--Kim2021,
@@ -324,24 +344,6 @@ We demonstrate the effectiveness of the proposed optimization framework for use 
 This paper shows that the distributed algorithm with $k=1$ over a sufficiently large number of groups attains a minimax optimal error rate up to a multiplicative logarithmic factor under some regularity conditions, for both regression and classification problems.
 Roughly speaking, distributed 1-nearest-neighbor rules with $M$ groups has a performance comparable to standard $\Theta(M)$-nearest-neighbor rules.
 In the analysis, alternative rules with a refined aggregation method are proposed and shown to attain exact minimax optimal rates.},
-}
-
-@misc{Ryu--Bhatt2022,
-  abbr={arXiv},
-  title={On Confidence Sequences for Bounded Random Processes via Universal Gambling Strategies},
-  author={Ryu, J. Jon and Bhatt, Alankrita},
-  year={2022},
-  archivePrefix={arXiv},
-  primaryClass={cs.IT},
-  author+an={1=highlight},
-  arxiv={2207.12382},
-  code={https://github.com/jongharyu/confidence-sequence-via-gambling},
-  selected={false},
-  abstract={This paper considers the problem of constructing a confidence sequence, which is a sequence of confidence intervals that hold uniformly over time, for estimating the mean of bounded real-valued random processes.
-This paper revisits the gambling-based approach established in the recent literature from a natural \emph{two-horse race} perspective, and demonstrates new properties of the resulting algorithm induced by Cover (1991)'s universal portfolio.
-The main result of this paper is a new algorithm based on a mixture of lower bounds, which closely approximates the performance of Cover's universal portfolio with constant per-round time complexity.
-A higher-order generalization of a lower bound on a logarithmic function in (Fan et al., 2015), which is developed as a key technique for the proposed algorithm, may be of independent interest.},
-  note={Submitted to <i>IEEE Trans. Inf. Theory</i> (minor revision).},
 }
 
 @misc{Ryu--Choi--Kim--El-Khamy--Lee2022,
