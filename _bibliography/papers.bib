@@ -331,20 +331,22 @@ We demonstrate the effectiveness of the proposed optimization framework for use 
 % preprints
 @misc{Ryu--Kim2021,
   abbr={arXiv},
-  title={One-Nearest-Neighbor Search Is All You Need for Minimax Optimal Regression and Classification},
+  title={Minimax Optimal Algorithms with Fixed-k-Nearest Neighbors},
   author={Ryu, J. Jon and Kim, Young-Han},
   year={2022},
   archivePrefix={arXiv},
   eprint={2202.02464},
   primaryClass={math.ST},
   author+an={1=highlight},
-  arxiv={2202.02464},
+  arxiv={2202.02464v3},
   code={https://github.com/jongharyu/split-knn-rules},
   selected={false},
-  abstract={Recently, Qiao, Duan, and Cheng~(2019) proposed a distributed nearest-neighbor classification method, in which a massive dataset is split into smaller groups, each processed with a $k$-nearest-neighbor classifier, and the final class label is predicted by a majority vote among these groupwise class labels.
-This paper shows that the distributed algorithm with $k=1$ over a sufficiently large number of groups attains a minimax optimal error rate up to a multiplicative logarithmic factor under some regularity conditions, for both regression and classification problems.
-Roughly speaking, distributed 1-nearest-neighbor rules with $M$ groups has a performance comparable to standard $\Theta(M)$-nearest-neighbor rules.
-In the analysis, alternative rules with a refined aggregation method are proposed and shown to attain exact minimax optimal rates.},
+  abstract={This paper presents how to perform minimax optimal classification, regression, and density estimation based on fixed-$k$ nearest neighbor (NN) searches.
+We consider a distributed learning scenario, in which a massive dataset is split into smaller groups, where the $k$-NNs are found for a query point with respect to each subset of data.
+We propose \emph{optimal} rules to aggregate the fixed-$k$-NN information for classification, regression, and density estimation that achieve minimax optimal rates for the respective problems.
+We show that the distributed algorithm with a fixed $k$ over a sufficiently large number of groups attains a minimax optimal error rate up to a multiplicative logarithmic factor under some regularity conditions.
+Roughly speaking, distributed $k$-NN rules with $M$ groups has a performance comparable to the standard $\Theta(kM)$-NN rules even for fixed $k$.},
+  note={Submitted to <i>Journal of Machine Learning Research</i><br>.}
 }
 
 @misc{Ryu--Choi--Kim--El-Khamy--Lee2022,

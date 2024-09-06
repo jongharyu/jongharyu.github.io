@@ -39,8 +39,11 @@ My recent research topics include:
 - sequential decision making / online learning
   - from universal gambling to time-uniform confidence sets [[TIT2024]](http://arxiv.org/abs/2207.12382), [[ICML2024]](http://arxiv.org/abs/2402.03683)
   - from universal gambling to parameter-free online learning [[AISTATS2022]](http://arxiv.org/abs/2202.02406)
+- learning with small-k-nearest neighbors 
+  - unified view on density functional estimation with fixed-k-NNs [[TIT2022]](http://arxiv.org/abs/1805.08342)
+  - minimax-optimal classification, regression, density estimation with distributed fixed-k-NNs [[arXiv]](http://arxiv.org/abs/2202.02464)
 - learning with uncertainty
-  - is evidential deep learning reliable? [[arXiv](http://arxiv.org/abs/2402.06160)].
+  - demystifying the empirical successes of evidential deep learning [[arXiv](http://arxiv.org/abs/2402.06160)].
 
 As an information theorist by training, I enjoy doing research by simplifying intricate ideas, unifying concepts, and generalizing them to address complex problems.
 
