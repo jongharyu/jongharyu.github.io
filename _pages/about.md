@@ -31,18 +31,18 @@ Before the graduate study, I received my B.S. in [Electrical and Computer Engine
 In general, I aim to develop principled and practical algorithms for machine learning and data science.
 My recent research topics include:
 
-- neural-net-based methods for large-scale spectral decomposition problems ([NeuralSVD [ICML2024]](http://arxiv.org/abs/2402.03655))
-- representation learning 
+- **neural-net-based methods for large-scale spectral decomposition problems** ([NeuralSVD [ICML2024]](http://arxiv.org/abs/2402.03655))
+- **representation learning** 
   - structured representation learning ([NeuralSVD [ICML2024]](http://arxiv.org/abs/2402.03655))
   - information-theoretic common representation learning ([variational Wyner model [arXiv]](http://arxiv.org/abs/1905.10945))
   - [fast kernel embedding without EVD [ISIT2021]](https://ieeexplore.ieee.org/document/9517746)
-- sequential decision making / online learning
+- **sequential decision making / online learning**
   - from universal gambling to time-uniform confidence sets [[TIT2024]](http://arxiv.org/abs/2207.12382), [[ICML2024]](http://arxiv.org/abs/2402.03683)
   - from universal gambling to parameter-free online learning [[AISTATS2022]](http://arxiv.org/abs/2202.02406)
-- learning with small-k-nearest neighbors 
+- **learning with small-k-nearest neighbors** 
   - unified view on density functional estimation with fixed-k-NNs [[TIT2022]](http://arxiv.org/abs/1805.08342)
   - minimax-optimal classification, regression, density estimation with distributed fixed-k-NNs [[arXiv]](http://arxiv.org/abs/2202.02464)
-- learning with uncertainty
+- **learning uncertainty for black-box model predictions**
   - demystifying the empirical successes of evidential deep learning [[arXiv](http://arxiv.org/abs/2402.06160)].
 
 As an information theorist by training, I enjoy doing research by simplifying intricate ideas, unifying concepts, and generalizing them to address complex problems.
