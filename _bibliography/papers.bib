@@ -335,6 +335,20 @@ We demonstrate the effectiveness of the proposed optimization framework for use 
   note={Spotlight (top 3.5%)},
 }
 
+@inproceedings{Shen--Ryu--Ghosh--Bu--Sattigerri--Wornell2024,
+  abbr={NeurIPS},
+  title={Are Uncertainty Quantification Capabilities of Evidential Deep Learning a Mirage?},
+  author={Shen*, Maohao and Ryu*, J. Jon and Ghosh, Soumya and Bu, Yuheng and Sattigeri, Prasanna and Das, Subhro and Wornell, Gregory W.},
+  year={2024},
+  booktitle=neurips,
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  author+an={2=highlight},
+  arxiv={2402.06160},
+  selected={false},
+  abstract={This paper questions the effectiveness of a modern predictive uncertainty quantification approach, called \emph{evidential deep learning} (EDL), in which a single neural network model is trained to learn a meta distribution over the predictive distribution by minimizing a specific objective function. Despite their perceived strong empirical performance on downstream tasks, a line of recent studies by Bengs et al. identify limitations of the existing methods to conclude their learned epistemic uncertainties are unreliable, e.g., in that they are non-vanishing even with infinite data. Building on and sharpening such analysis, we 1) provide a sharper understanding of the asymptotic behavior of a wide class of EDL methods by unifying various objective functions; 2) reveal that the EDL methods can be better interpreted as an out-of-distribution detection algorithm based on energy-based-models; and 3) conduct extensive ablation studies to better assess their empirical effectiveness with real-world datasets. Through all these analyses, we conclude that even when EDL methods are empirically effective on downstream tasks, this occurs despite their poor uncertainty quantification capabilities. Our investigation suggests that incorporating model uncertainty can help EDL methods faithfully quantify uncertainties and further improve performance on representative downstream tasks, albeit at the cost of additional computational complexity.},
+}
+
 % preprints
 @misc{Ryu--Kim2021,
   abbr={arXiv},
@@ -372,18 +386,19 @@ The utility of the proposed approach is demonstrated through experiments for joi
   note={Submitted. <a href="http://bayesiandeeplearning.org/2018/papers/122.pdf">{A preliminary version}</a> of this manuscript was presented at the Bayesian Deep Learning Workshop at NeurIPS 2018, and <a href="http://bayesiandeeplearning.org/2021/papers/67.pdf">{an abridged version}</a> of the current manuscript was presented at the Bayesian Deep Learning workshop at NeurIPS 2021.},
 } % ; ``reject and resubmit'' from <i>{IEEE} Trans. Pattern Anal. Mach. Intell.</i><br>
 
-@inproceedings{Shen--Ryu--Ghosh--Bu--Sattigerri--Wornell2024,
-  abbr={NeurIPS},
-  title={Are Uncertainty Quantification Capabilities of Evidential Deep Learning a Mirage?},
-  author={Shen*, Maohao and Ryu*, J. Jon and Ghosh, Soumya and Bu, Yuheng and Sattigeri, Prasanna and Das, Subhro and Wornell, Gregory W.},
+@misc{Ryu--Shah--Wornell2024,
+  abbr={arXiv},
+  title={A Unified View on Learning Unnormalized Distributions via Noise-Contrastive Estimation},
+  author={Ryu, J. Jon and Shah, Abhin and Wornell, Gregory W.},
   year={2024},
-  booktitle=neurips,
+  author+an={1=highlight},
+  abstract={This paper studies a family of estimators based on noise-contrastive estimation (NCE) for learning unnormalized distributions. The main contribution of this work is to provide a unified perspective on various methods for learning unnormalized distributions, which have been independently proposed and studied in separate research communities, through the lens of NCE. This unified view offers new insights into existing estimators. Specifically, for exponential families, we establish the finite-sample convergence rates of the proposed estimators under a set of regularity assumptions, most of which are new.},
+  primaryClass={stat.ML},
   archivePrefix={arXiv},
-  primaryClass={cs.LG},
-  author+an={2=highlight},
-  arxiv={2402.06160},
+  eprint={2409.18209},
+  arxiv={2409.18209},
+  journal={arXiv:2409.18209},
   selected={false},
-  abstract={This paper questions the effectiveness of a modern predictive uncertainty quantification approach, called \emph{evidential deep learning} (EDL), in which a single neural network model is trained to learn a meta distribution over the predictive distribution by minimizing a specific objective function. Despite their perceived strong empirical performance on downstream tasks, a line of recent studies by Bengs et al. identify limitations of the existing methods to conclude their learned epistemic uncertainties are unreliable, e.g., in that they are non-vanishing even with infinite data. Building on and sharpening such analysis, we 1) provide a sharper understanding of the asymptotic behavior of a wide class of EDL methods by unifying various objective functions; 2) reveal that the EDL methods can be better interpreted as an out-of-distribution detection algorithm based on energy-based-models; and 3) conduct extensive ablation studies to better assess their empirical effectiveness with real-world datasets. Through all these analyses, we conclude that even when EDL methods are empirically effective on downstream tasks, this occurs despite their poor uncertainty quantification capabilities. Our investigation suggests that incorporating model uncertainty can help EDL methods faithfully quantify uncertainties and further improve performance on representative downstream tasks, albeit at the cost of additional computational complexity.},
 }
 
 # working papers
@@ -395,15 +410,6 @@ The utility of the proposed approach is demonstrated through experiments for joi
   author+an={2=highlight},
   selected={false},
   note={<a href="https://openreview.net/forum?id=5wdY7N5hNn">{An extended abstract}</a> will be presented at <a href="https://spigmworkshop2024.github.io/">{ICML 2024 Workshop on Structured Probabilistic Inference & Generative Modeling}</a>.}
-}
-
-@unpublished{Ryu--Shah--Wornell2024,
-  abbr={working},
-  title={A Unified View on Learning Unnormalized Distributions via Noise-Contrastive Estimation},
-  author={Ryu, J. Jon and Shah, Abhin and Wornell, Gregory W.},
-  year={2024},
-  author+an={1=highlight},
-  selected={false},
 }
 
 # unpublished technical reports
