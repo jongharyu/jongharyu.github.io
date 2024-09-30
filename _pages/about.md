@@ -31,20 +31,19 @@ Before the graduate study, I received my B.S. in [Electrical and Computer Engine
 In general, I aim to develop principled and practical algorithms for machine learning and data science.
 My recent research topics include:
 
-
-- **neural-net-based methods for large-scale spectral decomposition problems** ([NeuralSVD [ICML2024]](http://arxiv.org/abs/2402.03655))
-- **representation learning** 
-  - structured representation learning ([NeuralSVD [ICML2024]](http://arxiv.org/abs/2402.03655))
-  - information-theoretic common representation learning ([variational Wyner model [arXiv]](http://arxiv.org/abs/1905.10945))
-  - [fast kernel embedding without EVD [ISIT2021]](https://ieeexplore.ieee.org/document/9517746)
-- **sequential decision making / online learning**
+- **Designing algorithms for large-scale problems from first principles** ([NeuralSVD [ICML2024]](http://arxiv.org/abs/2402.03655))
+  - Efficient parametric operator SVD for large-scale problems ([NeuralSVD [ICML2024]](http://arxiv.org/abs/2402.03655))
+  - Efficient small-$k$-nearest-neighbors algorithms ([[TIT2022]](http://arxiv.org/abs/1805.08342), [[arXiv]](http://arxiv.org/abs/2202.02464))
+- **Learning with efficient, reliable uncertainty quantification** 
+  - tight time-uniform confidence sets [[TIT2024]](http://arxiv.org/abs/2207.12382), [[ICML2024]](http://arxiv.org/abs/2402.03683)
+  - identifying pitfalls of evidential deep learning [[NeurIPS2024](http://arxiv.org/abs/2402.06160)]
+- **Information-theoretic tools for learning and data science**
   - from universal gambling to time-uniform confidence sets [[TIT2024]](http://arxiv.org/abs/2207.12382), [[ICML2024]](http://arxiv.org/abs/2402.03683)
   - from universal gambling to parameter-free online learning [[AISTATS2022]](http://arxiv.org/abs/2202.02406)
-- **learning with small-k-nearest neighbors** 
+  - information-theoretic common representation learning ([variational Wyner model [arXiv]](http://arxiv.org/abs/1905.10945))
+- **Unifying principles in machine learning**
   - unified view on density functional estimation with fixed-k-NNs [[TIT2022]](http://arxiv.org/abs/1805.08342)
-  - minimax-optimal classification, regression, density estimation with distributed fixed-k-NNs [[arXiv]](http://arxiv.org/abs/2202.02464)
-- **learning uncertainty for black-box model predictions**
-  - demystifying the empirical successes of evidential deep learning [[NeurIPS2024](http://arxiv.org/abs/2402.06160)]
+  - unifying principles for fitting unnormalized distributions via noise-contrastive estimation [[arXiv](http://arxiv.org/abs/2409.18209)]
 
 As an information theorist by training, I enjoy doing research by simplifying intricate ideas, unifying concepts, and generalizing them to address complex problems.
 
