@@ -38,8 +38,8 @@ My recent research topics include:
   - tight time-uniform confidence sets [[TIT2024]](http://arxiv.org/abs/2207.12382), [[ICML2024]](http://arxiv.org/abs/2402.03683)
   - identifying pitfalls of evidential deep learning [[NeurIPS2024](http://arxiv.org/abs/2402.06160)]
 - **Information-theoretic tools for machine learning and data science**
-  - from universal gambling to tight time-uniform confidence sets [[TIT2024]](http://arxiv.org/abs/2207.12382), [[ICML2024]](http://arxiv.org/abs/2402.03683)
-  - from universal compression to parameter-free online learning [[AISTATS2022]](http://arxiv.org/abs/2202.02406)
+  - from universal gambling to time-uniform confidence sets [[TIT2024]](http://arxiv.org/abs/2207.12382), [[ICML2024]](http://arxiv.org/abs/2402.03683)
+  - from universal compression to parameter-free online optimization [[AISTATS2022]](http://arxiv.org/abs/2202.02406)
   - information-theoretic common representation learning ([variational Wyner model [arXiv]](http://arxiv.org/abs/1905.10945))
 - **Unifying principles in machine learning**
   - unified view on density functional estimation with fixed-k-NNs [[TIT2022]](http://arxiv.org/abs/1805.08342)
