@@ -32,8 +32,8 @@ In general, I aim to develop principled and practical algorithms for machine lea
 My recent research topics include:
 
 - **Designing algorithms for large-scale problems from first principles**
-  - Efficient parametric operator SVD for large-scale problems ([NeuralSVD [ICML2024]](http://arxiv.org/abs/2402.03655))
-  - Efficient small-k-nearest-neighbors algorithms [[TIT2022]](http://arxiv.org/abs/1805.08342), [[arXiv]](http://arxiv.org/abs/2202.02464)
+  - efficient parametric operator SVD for large-scale problems ([NeuralSVD [ICML2024]](http://arxiv.org/abs/2402.03655))
+  - efficient small-k-nearest-neighbors algorithms [[TIT2022]](http://arxiv.org/abs/1805.08342), [[arXiv]](http://arxiv.org/abs/2202.02464)
 - **Learning with efficient & reliable uncertainty quantification** 
   - tight time-uniform confidence sets [[TIT2024]](http://arxiv.org/abs/2207.12382), [[ICML2024]](http://arxiv.org/abs/2402.03683)
   - identifying pitfalls of evidential deep learning [[NeurIPS2024](http://arxiv.org/abs/2402.06160)]
