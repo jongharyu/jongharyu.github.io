@@ -13,6 +13,7 @@ nav: true
   - at [Mitsubishi Electric Research Laboratories](https://www.merl.com/), Cambridge, MA, USA, Sep. 2024.
   - at [KAIST AI Graduate School of AI](https://gsai.kaist.ac.kr/), Daejeon, South Korea, Sep. 2024.
   - at the [Center for AI and Natural Sciences](https://kias.re.kr/kias/activities/seminars/view.do?seqno=PGN1720240814-0002&menuNo=404003&schoolsCd=CP&centrspgmsCd=&sdate=2024-08-14&edate=&mjrcdnm=&searchCnd=1&searchWord=&pageIndex=2), KIAS, Seoul, South Korea, Oct. 2024.
+  - at [Center for Computational Mathematics, Flatiron Institute](https://www.simonsfoundation.org/machine-learning-at-the-flatiron-institute/), New York, NY, USA, Oct. 2024.
 - **From Information Theory to Machine Learning Algorithms: Two Vignettes**.
   - at the [Signals, Information and Algorithms Laboratory](https://www.rle.mit.edu/sia/), MIT, Cambridge, MA, USA, Mar. 2022.
   - at the [Center for AI and Natural Sciences](https://www.kias.re.kr/kias/activities/seminars/view.do?seqno=PGN1720220217-0002&menuNo=404003), KIAS, Seoul, South Korea, Mar. 2022.
