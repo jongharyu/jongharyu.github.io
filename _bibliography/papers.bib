@@ -214,7 +214,7 @@ A concrete example of dot-product kernels over hypersphere is provided to illust
   pdf={aistats2022.pdf},
   poster={aistats2022-poster.pdf},
   code={https://github.com/jongharyu/olo-with-side-information},
-  selected={true},
+  selected={false},
   abstract={A class of parameter-free online linear optimization algorithms is proposed that harnesses the structure of an adversarial sequence by adapting to some side information. These algorithms combine the reduction technique of Orabona and P{\'a}l (2016) for adapting coin betting algorithms for online linear optimization with universal compression techniques in information theory for incorporating sequential side information to coin betting.
 Concrete examples are studied in which the side information has a tree structure and consists of quantized values of the previous symbols of the adversarial sequence, including fixed-order and variable-order Markov cases.
 By modifying the context-tree weighting technique of Willems, Shtarkov, and Tjalkens (1995), the proposed algorithm is further refined to achieve the best performance over all adaptive algorithms with tree-structured side information of a given maximum order in a computationally efficient manner.},
@@ -382,7 +382,7 @@ The model is trained by minimizing the symmetric Kullback--Leibler divergence be
 The utility of the proposed approach is demonstrated through experiments for joint and conditional generation with synthetic and real-world datasets, as well as a challenging zero-shot image retrieval task.},
   arxiv={1905.10945},
   code={https://github.com/jongharyu/wyner-model},
-  selected={true},
+  selected={false},
   note={Submitted. <a href="http://bayesiandeeplearning.org/2018/papers/122.pdf">{A preliminary version}</a> of this manuscript was presented at the Bayesian Deep Learning Workshop at NeurIPS 2018, and <a href="http://bayesiandeeplearning.org/2021/papers/67.pdf">{an abridged version}</a> of the current manuscript was presented at the Bayesian Deep Learning workshop at NeurIPS 2021.},
 } % ; ``reject and resubmit'' from <i>{IEEE} Trans. Pattern Anal. Mach. Intell.</i><br>
 
@@ -401,6 +401,36 @@ The utility of the proposed approach is demonstrated through experiments for joi
   selected={false},
 }
 
+@misc{Ryu--Kwon--Koppe--Jun2025,
+  abbr={arXiv},
+  title={Improved Offline Contextual Bandits with Second-Order Bounds: Betting and Freezing},
+  author={Ryu, J. Jon and Kwon, Jeongyeol and Koppe, Benjamin and Jun, Kwang-Sung},
+  year={2025},
+  author+an={1=highlight},
+  abstract={We consider the off-policy selection and learning in contextual bandits where the learner aims to select or train a reward-maximizing policy using data collected by a fixed behavior policy. Our contribution is two-fold. First, we propose a novel off-policy selection method that leverages a new betting-based confidence bound applied to an inverse propensity weight sequence. Our theoretical analysis reveals that our method achieves a significantly better, variance-adaptive guarantee upon prior art. Second, we propose a novel and generic condition on the optimization objective for off-policy learning that strikes a difference balance in bias and variance. One special case that we call freezing tends to induce small variance, which is preferred in small-data regimes. Our analysis shows that they match the best existing guarantee. In our empirical study, our selection method outperforms existing methods, and freezing exhibits improved performance in small-sample regimes.},
+  primaryClass={stat.ML},
+  archivePrefix={arXiv},
+  eprint={2502.10826},
+  arxiv={2502.10826},
+  journal={arXiv:2502.10826},
+  selected={true},
+}
+  
+@misc{Jayashankar--Ryu--Wornell2025,
+  abbr={arXiv},
+  title={Score-of-Mixture Training: Training One-Step Generative Models Made Simple},
+  author={Jayashankar*, Tejas and Ryu*, J. Jon and Wornell, Gregory},
+  author+an={2=highlight},
+  year={2025},
+  abstract={We propose Score-of-Mixture Training (SMT), a novel framework for training one-step generative models by minimizing a class of divergences called the $\alpha$-skew Jensen-Shannon divergence. At its core, SMT estimates the score of mixture distributions between real and fake samples across multiple noise levels. Similar to consistency models, our approach supports both training from scratch (SMT) and distillation using a pretrained diffusion model, which we call Score-of-Mixture Distillation (SMD). It is simple to implement, requires minimal hyperparameter tuning, and ensures stable training. Experiments on CIFAR-10 and ImageNet 64x64 show that SMT/SMD are competitive with and can even outperform existing methods.},
+  primaryClass = {cs.AI},
+  archivePrefix = {arXiv},
+  eprint = {2502.09609},
+  arXiv = {2502.09609},
+  journal = {arXiv:2502.09609},
+  selected = {true},
+}
+
 # working papers
 @unpublished{Jayashankar--Ryu--Xu--Wornell2024,
   abbr={working},
@@ -409,7 +439,7 @@ The utility of the proposed approach is demonstrated through experiments for joi
   year={2024},
   author+an={2=highlight},
   selected={false},
-  note={<a href="https://openreview.net/forum?id=5wdY7N5hNn">{An extended abstract}</a> will be presented at <a href="https://spigmworkshop2024.github.io/">{ICML 2024 Workshop on Structured Probabilistic Inference & Generative Modeling}</a>.}
+  note={Submitted. <a href="https://openreview.net/forum?id=5wdY7N5hNn">{An extended abstract}</a> will be presented at <a href="https://spigmworkshop2024.github.io/">{ICML 2024 Workshop on Structured Probabilistic Inference & Generative Modeling}</a>.}
 }
 
 # unpublished technical reports
@@ -437,4 +467,3 @@ The utility of the proposed approach is demonstrated through experiments for joi
   bibtex={false},
   abstract={Recommender systems aim to find an accurate and efficient mapping from historic data of user-preferred items to a new item that is to be liked by a user. Towards this goal, energy-based sequence generative adversarial nets (EB-SeqGANs) are adopted for recommendation by learning a generative model for the time series of user-preferred items. By recasting the energy function as the feature function, the proposed EB-SeqGANs is interpreted as an instance of maximum-entropy imitation learning.},
 }
-
