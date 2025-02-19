@@ -26,9 +26,21 @@
   - firstname: ["Jiun-Ting"]
     url: https://scholar.google.com/citations?user=nRIpwSwAAAAJ&hl=en
 
+"jayashankar":
+  - firstname: ["Tejas"]
+    url: https://tejasjayashankar.github.io/
+
+"jun":
+  - firstname: ["Kwang-Sung"]
+    url: https://kwangsungjun.github.io/
+
 "kim":
   - firstname: ["Young-Han", "Y.-H."]
     url: https://web.eng.ucsd.edu/~yhk/
+
+"kwon":
+  - firstname: ["Jeongyeol"]
+    url: https://kwonchungli.github.io/
 
 "lee":
   - firstname: ["Daniel D."]

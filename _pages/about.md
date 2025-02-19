@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
 subtitle: Postdoctoral Associate at MIT
 
@@ -32,17 +32,17 @@ In general, I aim to develop principled and practical algorithms for machine lea
 My recent research topics include:
 
 - **Scalable parametric spectral decomposition methods**
-  - efficient parametric operator SVD ([NeuralSVD [ICML2024]](http://arxiv.org/abs/2402.03655))
+  - efficient parametric operator SVD ([NeuralSVD [ICML2024a]](http://arxiv.org/abs/2402.03655))
 - **New generative modeling techniques**
-  - new training framework for one-step generative models ([*Score-of-Mixture Training* [arXiv]](https://arxiv.org/abs/2502.09609))
-  - unifying principles for fitting unnormalized distributions [[arXiv](http://arxiv.org/abs/2409.18209)]
+  - new training framework for one-step generative models ([Score-of-Mixture Training [arXiv2025a]](https://arxiv.org/abs/2502.09609))
+  - unifying principles for fitting unnormalized distributions [[arXiv2024](http://arxiv.org/abs/2409.18209)]
 - **Efficient & reliable uncertainty quantification techniques** 
-  - tight time-uniform confidence sets [[TIT2024]](http://arxiv.org/abs/2207.12382), [[ICML2024]](http://arxiv.org/abs/2402.03683), [[arXiv]](https://arxiv.org/abs/2502.10826)
+  - universal-gambling-based time-uniform confidence sets [[TIT2024]](http://arxiv.org/abs/2207.12382), [[ICML2024b]](http://arxiv.org/abs/2402.03683), and applications [[arXiv2025b]](https://arxiv.org/abs/2502.10826)
   - identifying pitfalls of evidential deep learning [[NeurIPS2024](http://arxiv.org/abs/2402.06160)]
 
 - **Nonparametric methods**
   - unified view on density functional estimation with fixed-k-NNs [[TIT2022]](http://arxiv.org/abs/1805.08342)
-  - efficient small-k-nearest-neighbors algorithms [[arXiv]](http://arxiv.org/abs/2202.02464)
+  - efficient small-k-nearest-neighbors algorithms [[arXiv2022]](http://arxiv.org/abs/2202.02464)
   
 [//]: # (- **Information-theoretic tools for machine learning**)
 
