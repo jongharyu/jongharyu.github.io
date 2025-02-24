@@ -9,7 +9,7 @@ nav: true
 
 ---
 
-## Education
+## education
 
 - **UC San Diego**, 2015--2022.
   - Ph.D. in Electrical Engineering, June 2022.
@@ -23,7 +23,7 @@ nav: true
 
 ---
 
-## Employment
+## employment
 
 - **MIT**, 2022--
   - Postdoctoral Associate, August 2022--present
@@ -31,7 +31,7 @@ nav: true
 
 ---
 
-## Honors and awards
+## honors and awards
 
 - Departmental Fellowship, Department of ECE, UCSD, 2015--2016.
 - Kwanjeong Scholarship, [Kwanjeong Educational Foundation](http://en.ikef.or.kr/).
@@ -41,7 +41,7 @@ nav: true
   - Bronze Prize (2013) (math majors).
   - Gold Prize (2010), Honorable Mention (2009) (non-math majors).
 
-## Reviewer service
+## reviewer service
 
 - **Journal**: [TransIT](https://www.itsoc.org/it-trans), [JSAIT](https://www.itsoc.org/jsait).
 - **Conference**:
@@ -54,7 +54,7 @@ nav: true
 
 ---
 
-## Industry experience
+## industry experience
 
 - Research intern, Qualcomm AI Research, San Diego, CA.
   - Source Compression Group, Jun. 2019--Dec. 2019.
@@ -63,7 +63,7 @@ nav: true
   - Deep Learning Group, Jun. 2018--Sep. 2018.
   - Mentor: [Yoojin Choi](https://scholar.google.com/citations?user=haggDAwAAAAJ&hl=en).
 
-## Teaching experience
+## teaching experience
 
 - **MIT**: as a postdoctoral instructor, I was in charge of the following course.
   - [6.7800 Inference and Information](https://web.mit.edu/6.7800/www/info24.pdf) (Spring 2024)
@@ -79,12 +79,12 @@ nav: true
     - highlight: designed hands-on programming assignments for the class based on Julia.
     - topics: basic source coding and channel coding algorithms.
 
-## Selected graduate coursework
+## selected graduate coursework
 
 - **ECE**: Information Theory, Universal Information Processing, Network Information Theory, Algebraic Coding Theory, Probabilistic Coding Theory, Random Processes, Dynamical Systems under Uncertainty, Image and Video Restoration, Semidefinite Optimization and Sum-Of-Squares.
 - **CSE**: Probabilistic Reasoning and Learning, Distribution Learning and Testing, Randomized Algorithms, Advanced Optimization, Online Learning, Unsupervised Learning.
 - **MATH/STAT/DS**: Probability Theory (A,B,C), Mathematical Statistics (A,B,C), Applied Statistics (A,B), Markov Chains and Mixing Times, Convex Analysis and Optimization (A,B,C), High-dimensional Statistics, Multivariate Analysis, Probabilistic Combinatorics and Algorithms (A), Geometry of Data.
 
-## Miscellaneous
+## miscellaneous
 
 - Military service, Republic of Korea Army, Mar. 2011--Dec. 2012.
