@@ -36,8 +36,8 @@ My recent research focuses on:
   - variations and applications (work in progress)
 
 - **New techniques for probabilistic (generative) models**
-  - an efficient framework for training one-step, high-quality generative models ([Score-of-Mixture Training [arXiv2025a]](https://arxiv.org/abs/2502.09609))  
-  - unifying principles for learning with energy-based models [[arXiv2024](http://arxiv.org/abs/2409.18209)]
+  - an efficient framework for training one-step, high-quality generative models ([Score-of-Mixture Training [ICML2025a]](https://arxiv.org/abs/2502.09609))  
+  - unifying principles for learning with energy-based models [[ICML2025b](http://arxiv.org/abs/2409.18209)]
 
 - **New techniques and perspectives for uncertainty quantification**
   - universal gambling-based time-uniform confidence sets [[TIT2024]](http://arxiv.org/abs/2207.12382), [[ICML2024b]](http://arxiv.org/abs/2402.03683), and applications [[arXiv2025b]](https://arxiv.org/abs/2502.10826)  

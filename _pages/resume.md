@@ -66,7 +66,7 @@ nav: true
 ## teaching experience
 
 - **MIT**: as a postdoctoral instructor, I was in charge of the following course.
-  - [6.7800 Inference and Information](https://web.mit.edu/6.7800/www/info24.pdf) (Spring 2024, 2025)
+  - [6.7800 Inference and Information](https://web.mit.edu/6.7800/www/info24.pdf) (Spring 2024, Spring 2025)
     - highlight: designed and lectured bonus sessions on advanced topics of the course.
     - topics: minimax optimal bit prediction, large-deviation bounds, plug-and-play universal prediction, variational techniques in generative models.
 - **UCSD**: I was a teaching assistant for the following courses.

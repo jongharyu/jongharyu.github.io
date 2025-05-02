@@ -339,14 +339,44 @@ We demonstrate the effectiveness of the proposed optimization framework for use 
   abbr={NeurIPS},
   title={Are Uncertainty Quantification Capabilities of Evidential Deep Learning a Mirage?},
   author={Shen*, Maohao and Ryu*, J. Jon and Ghosh, Soumya and Bu, Yuheng and Sattigeri, Prasanna and Das, Subhro and Wornell, Gregory W.},
+  author+an={2=highlight},
   year={2024},
   booktitle=neurips,
   archivePrefix={arXiv},
   primaryClass={cs.LG},
-  author+an={2=highlight},
   arxiv={2402.06160},
   selected={false},
   abstract={This paper questions the effectiveness of a modern predictive uncertainty quantification approach, called \emph{evidential deep learning} (EDL), in which a single neural network model is trained to learn a meta distribution over the predictive distribution by minimizing a specific objective function. Despite their perceived strong empirical performance on downstream tasks, a line of recent studies by Bengs et al. identify limitations of the existing methods to conclude their learned epistemic uncertainties are unreliable, e.g., in that they are non-vanishing even with infinite data. Building on and sharpening such analysis, we 1) provide a sharper understanding of the asymptotic behavior of a wide class of EDL methods by unifying various objective functions; 2) reveal that the EDL methods can be better interpreted as an out-of-distribution detection algorithm based on energy-based-models; and 3) conduct extensive ablation studies to better assess their empirical effectiveness with real-world datasets. Through all these analyses, we conclude that even when EDL methods are empirically effective on downstream tasks, this occurs despite their poor uncertainty quantification capabilities. Our investigation suggests that incorporating model uncertainty can help EDL methods faithfully quantify uncertainties and further improve performance on representative downstream tasks, albeit at the cost of additional computational complexity.},
+}
+
+@inproceedings{Ryu--Shah--Wornell2024,
+  abbr={ICML},
+  title={A Unified View on Learning Unnormalized Distributions via Noise-Contrastive Estimation},
+  author={Ryu, J. Jon and Shah, Abhin and Wornell, Gregory W.},
+  author+an={1=highlight},
+  year={2025},
+  booktitle=icml,
+  abstract={This paper studies a family of estimators based on noise-contrastive estimation (NCE) for learning unnormalized distributions. The main contribution of this work is to provide a unified perspective on various methods for learning unnormalized distributions, which have been independently proposed and studied in separate research communities, through the lens of NCE. This unified view offers new insights into existing estimators. Specifically, for exponential families, we establish the finite-sample convergence rates of the proposed estimators under a set of regularity assumptions, most of which are new.},
+  primaryClass={stat.ML},
+  archivePrefix={arXiv},
+  eprint={2409.18209},
+  arxiv={2409.18209},
+  selected={true},
+}
+
+@inproceedings{Jayashankar--Ryu--Wornell2025,
+  abbr={ICML},
+  title={Score-of-Mixture Training: Training One-Step Generative Models Made Simple},
+  author={Jayashankar*, Tejas and Ryu*, J. Jon and Wornell, Gregory W.},
+  author+an={2=highlight},
+  year={2025},
+  booktitle=icml,
+  abstract={We propose Score-of-Mixture Training (SMT), a novel framework for training one-step generative models by minimizing a class of divergences called the $\alpha$-skew Jensen-Shannon divergence. At its core, SMT estimates the score of mixture distributions between real and fake samples across multiple noise levels. Similar to consistency models, our approach supports both training from scratch (SMT) and distillation using a pretrained diffusion model, which we call Score-of-Mixture Distillation (SMD). It is simple to implement, requires minimal hyperparameter tuning, and ensures stable training. Experiments on CIFAR-10 and ImageNet 64x64 show that SMT/SMD are competitive with and can even outperform existing methods.},
+  primaryClass = {cs.AI},
+  archivePrefix = {arXiv},
+  eprint = {2502.09609},
+  arXiv = {2502.09609},
+  selected = {true},
 }
 
 % preprints
@@ -386,21 +416,6 @@ The utility of the proposed approach is demonstrated through experiments for joi
   note={Submitted. <a href="http://bayesiandeeplearning.org/2018/papers/122.pdf">{A preliminary version}</a> of this manuscript was presented at the Bayesian Deep Learning Workshop at NeurIPS 2018, and <a href="http://bayesiandeeplearning.org/2021/papers/67.pdf">{an abridged version}</a> of the current manuscript was presented at the Bayesian Deep Learning workshop at NeurIPS 2021.},
 } % ; ``reject and resubmit'' from <i>{IEEE} Trans. Pattern Anal. Mach. Intell.</i><br>
 
-@misc{Ryu--Shah--Wornell2024,
-  abbr={arXiv},
-  title={A Unified View on Learning Unnormalized Distributions via Noise-Contrastive Estimation},
-  author={Ryu, J. Jon and Shah, Abhin and Wornell, Gregory W.},
-  year={2024},
-  author+an={1=highlight},
-  abstract={This paper studies a family of estimators based on noise-contrastive estimation (NCE) for learning unnormalized distributions. The main contribution of this work is to provide a unified perspective on various methods for learning unnormalized distributions, which have been independently proposed and studied in separate research communities, through the lens of NCE. This unified view offers new insights into existing estimators. Specifically, for exponential families, we establish the finite-sample convergence rates of the proposed estimators under a set of regularity assumptions, most of which are new.},
-  primaryClass={stat.ML},
-  archivePrefix={arXiv},
-  eprint={2409.18209},
-  arxiv={2409.18209},
-  journal={arXiv:2409.18209},
-  selected={false},
-}
-
 @misc{Ryu--Kwon--Koppe--Jun2025,
   abbr={arXiv},
   title={Improved Offline Contextual Bandits with Second-Order Bounds: Betting and Freezing},
@@ -416,21 +431,6 @@ The utility of the proposed approach is demonstrated through experiments for joi
   selected={true},
 }
   
-@misc{Jayashankar--Ryu--Wornell2025,
-  abbr={arXiv},
-  title={Score-of-Mixture Training: Training One-Step Generative Models Made Simple},
-  author={Jayashankar*, Tejas and Ryu*, J. Jon and Wornell, Gregory W.},
-  author+an={2=highlight},
-  year={2025},
-  abstract={We propose Score-of-Mixture Training (SMT), a novel framework for training one-step generative models by minimizing a class of divergences called the $\alpha$-skew Jensen-Shannon divergence. At its core, SMT estimates the score of mixture distributions between real and fake samples across multiple noise levels. Similar to consistency models, our approach supports both training from scratch (SMT) and distillation using a pretrained diffusion model, which we call Score-of-Mixture Distillation (SMD). It is simple to implement, requires minimal hyperparameter tuning, and ensures stable training. Experiments on CIFAR-10 and ImageNet 64x64 show that SMT/SMD are competitive with and can even outperform existing methods.},
-  primaryClass = {cs.AI},
-  archivePrefix = {arXiv},
-  eprint = {2502.09609},
-  arXiv = {2502.09609},
-  journal = {arXiv:2502.09609},
-  selected = {true},
-}
-
 # working papers
 @unpublished{Jayashankar--Ryu--Xu--Wornell2024,
   abbr={working},
