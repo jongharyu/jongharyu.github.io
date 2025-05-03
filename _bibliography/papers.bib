@@ -380,6 +380,22 @@ We demonstrate the effectiveness of the proposed optimization framework for use 
   note={Spotlight (top 2.6%)},
 }
 
+
+@inproceedings{Ryu--Kwon--Koppe--Jun2025,
+  abbr={COLT},
+  title={Improved Offline Contextual Bandits with Second-Order Bounds: Betting and Freezing},
+  author={Ryu, J. Jon and Kwon, Jeongyeol and Koppe, Benjamin and Jun, Kwang-Sung},
+  year={2025},
+  booktitle=colt,
+  author+an={1=highlight},
+  abstract={We consider the off-policy selection and learning in contextual bandits where the learner aims to select or train a reward-maximizing policy using data collected by a fixed behavior policy. Our contribution is two-fold. First, we propose a novel off-policy selection method that leverages a new betting-based confidence bound applied to an inverse propensity weight sequence. Our theoretical analysis reveals that our method achieves a significantly better, variance-adaptive guarantee upon prior art. Second, we propose a novel and generic condition on the optimization objective for off-policy learning that strikes a difference balance in bias and variance. One special case that we call freezing tends to induce small variance, which is preferred in small-data regimes. Our analysis shows that they match the best existing guarantee. In our empirical study, our selection method outperforms existing methods, and freezing exhibits improved performance in small-sample regimes.},
+  primaryClass={stat.ML},
+  archivePrefix={arXiv},
+  eprint={2502.10826},
+  arxiv={2502.10826},
+  selected={true},
+}
+
 % preprints
 @misc{Ryu--Kim2021,
   abbr={arXiv},
@@ -416,21 +432,6 @@ The utility of the proposed approach is demonstrated through experiments for joi
   selected={false},
   note={Submitted. <a href="http://bayesiandeeplearning.org/2018/papers/122.pdf">{A preliminary version}</a> of this manuscript was presented at the Bayesian Deep Learning Workshop at NeurIPS 2018, and <a href="http://bayesiandeeplearning.org/2021/papers/67.pdf">{an abridged version}</a> of the current manuscript was presented at the Bayesian Deep Learning workshop at NeurIPS 2021.},
 } % ; ``reject and resubmit'' from <i>{IEEE} Trans. Pattern Anal. Mach. Intell.</i><br>
-
-@misc{Ryu--Kwon--Koppe--Jun2025,
-  abbr={arXiv},
-  title={Improved Offline Contextual Bandits with Second-Order Bounds: Betting and Freezing},
-  author={Ryu, J. Jon and Kwon, Jeongyeol and Koppe, Benjamin and Jun, Kwang-Sung},
-  year={2025},
-  author+an={1=highlight},
-  abstract={We consider the off-policy selection and learning in contextual bandits where the learner aims to select or train a reward-maximizing policy using data collected by a fixed behavior policy. Our contribution is two-fold. First, we propose a novel off-policy selection method that leverages a new betting-based confidence bound applied to an inverse propensity weight sequence. Our theoretical analysis reveals that our method achieves a significantly better, variance-adaptive guarantee upon prior art. Second, we propose a novel and generic condition on the optimization objective for off-policy learning that strikes a difference balance in bias and variance. One special case that we call freezing tends to induce small variance, which is preferred in small-data regimes. Our analysis shows that they match the best existing guarantee. In our empirical study, our selection method outperforms existing methods, and freezing exhibits improved performance in small-sample regimes.},
-  primaryClass={stat.ML},
-  archivePrefix={arXiv},
-  eprint={2502.10826},
-  arxiv={2502.10826},
-  journal={arXiv:2502.10826},
-  selected={true},
-}
   
 # working papers
 @unpublished{Jayashankar--Ryu--Xu--Wornell2024,

@@ -46,8 +46,8 @@ nav: true
 - **Journal**: [TransIT](https://www.itsoc.org/it-trans), [JSAIT](https://www.itsoc.org/jsait).
 - **Conference**:
   - ICML {2022, 2023, 2024, 2025}
-  - NeurIPS {2022, 2023 (top reviewer), 2024}
-  - ICLR 2024.
+  - NeurIPS {2022, 2023 (top reviewer), 2024, 2025}
+  - ICLR 2024
   - AISTATS {2022, 2023, 2024}
   - ISIT {2017, 2023, 2024, 2025}
   - ITW 2022
@@ -68,7 +68,7 @@ nav: true
 - **MIT**: as a postdoctoral instructor, I was in charge of the following course.
   - [6.7800 Inference and Information](https://web.mit.edu/6.7800/www/info24.pdf) (Spring 2024, Spring 2025)
     - highlight: designed and lectured bonus sessions on advanced topics of the course.
-    - topics: minimax optimal bit prediction, large-deviation bounds, plug-and-play universal prediction, variational techniques in generative models.
+    - topics: minimax optimal bit prediction, group testing and Fano's inequality, universal large-deviation bounds, plug-and-play universal prediction, variational techniques in generative models.
 - **UCSD**: I was a teaching assistant for the following courses.
   - [ECE 269 Linear Algebra and Applications](https://web.eng.ucsd.edu/~yhk/ece225b-spr18/) (Winter 2019)
   - [ECE 225B Universal Probability and Applications in Data Science](https://web.eng.ucsd.edu/~yhk/ece225b-spr18/) (Spring 2018)
