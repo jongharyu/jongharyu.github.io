@@ -29,7 +29,8 @@ My recent research focuses on:
 
 - **New machine learning techniques for scalable scientific simulation**
   - a parametric framework for operator SVD ([NeuralSVD [ICML2024a]](http://arxiv.org/abs/2402.03655))  
-  - variations and applications (work in progress)
+  - applications: analyzing nonlinear dynamical systems ([work in progress](https://jongharyu.github.io/))
+  - principles and unification ([work in progress](https://jongharyu.github.io/))
 
 - **New techniques for probabilistic (generative) models**
   - an efficient framework for training one-step, high-quality generative models ([Score-of-Mixture Training [ICML2025a]](https://arxiv.org/abs/2502.09609))  
