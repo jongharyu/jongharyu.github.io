@@ -37,7 +37,7 @@ My recent research focuses on:
 
 - **New techniques and perspectives for uncertainty quantification**
   - universal gambling-based time-uniform confidence sets [[TIT2024]](http://arxiv.org/abs/2207.12382), [[ICML2024b]](http://arxiv.org/abs/2402.03683), and applications [[COLT2025]](https://arxiv.org/abs/2502.10826)  
-  - identifying pitfalls of evidential deep learning [[NeurIPS2024](http://arxiv.org/abs/2402.06160)]
+  - identifying pitfalls of evidential deep learning [[NeurIPS2024](http://arxiv.org/abs/2402.06160)] 
 
 [//]: # (- **Some unifying views on nearest-neighbor methods**)
 
