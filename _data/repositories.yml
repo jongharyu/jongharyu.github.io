@@ -2,6 +2,7 @@ github_users:
   - jongharyu
 
 github_repos:
+  - tkj516/score-of-mixture-training
   - jongharyu/neural-svd
   - jongharyu/confidence-sequence-via-gambling
   - jongharyu/wyner-model
