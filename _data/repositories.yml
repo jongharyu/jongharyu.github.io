@@ -1,6 +1,8 @@
 github_users:
   - jongharyu
 
+repo_description_lines_max: 2
+
 github_repos:
   - tkj516/score-of-mixture-training
   - jongharyu/neural-svd
