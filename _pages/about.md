@@ -22,7 +22,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
@@ -38,7 +38,7 @@ My recent research focuses on:
 
 - **New machine learning techniques for scalable scientific simulation**
   - a parametric framework for operator SVD ([NeuralSVD [ICML2024a]](http://arxiv.org/abs/2402.03655))  
-  - applications: analyzing nonlinear dynamical systems ([work in progress](https://jongharyu.github.io/))
+  - applications: analyzing nonlinear dynamical systems ([NeuralSVD on Koopman operator [arXiv2025]](http://arxiv.org/abs/2507.07222))
   - principles and unification ([work in progress](https://jongharyu.github.io/))
 
 - **New techniques for probabilistic (generative) models**
