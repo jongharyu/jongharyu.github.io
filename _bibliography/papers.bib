@@ -384,8 +384,8 @@ We demonstrate the effectiveness of the proposed optimization framework for use 
   selected = {true},
   note={Spotlight (top 2.6%)},
   poster={icml2025-smt-poster.pdf},
+  code={https://github.com/tkj516/score-of-mixture-training},
 }
-
 
 @inproceedings{Ryu--Kwon--Koppe--Jun2025,
   abbr={COLT},
@@ -394,7 +394,7 @@ We demonstrate the effectiveness of the proposed optimization framework for use 
   year={2025},
   booktitle=colt,
   author+an={1=highlight},
-  abstract={We consider the off-policy selection and learning in contextual bandits where the learner aims to select or train a reward-maximizing policy using data collected by a fixed behavior policy. Our contribution is two-fold. First, we propose a novel off-policy selection method that leverages a new betting-based confidence bound applied to an inverse propensity weight sequence. Our theoretical analysis reveals that our method achieves a significantly better, variance-adaptive guarantee upon prior art. Second, we propose a novel and generic condition on the optimization objective for off-policy learning that strikes a difference balance in bias and variance. One special case that we call freezing tends to induce small variance, which is preferred in small-data regimes. Our analysis shows that they match the best existing guarantee. In our empirical study, our selection method outperforms existing methods, and freezing exhibits improved performance in small-sample regimes.},
+  abstract={We consider off-policy selection and learning in contextual bandits, where the learner aims to select or train a reward-maximizing policy using data collected by a fixed behavior policy. Our contribution is two-fold. First, we propose a novel off-policy selection method that leverages a new betting-based confidence bound applied to an inverse propensity weight sequence. Our theoretical analysis reveals that this method achieves a significantly improved, variance-adaptive guarantee over prior work. Second, we propose a novel and generic condition on the optimization objective for off-policy learning that strikes a different balance between bias and variance. One special case, which we call freezing, tends to induce low variance, which is preferred in small-data regimes. Our analysis shows that it matches the best existing guarantees. In our empirical study, our selection method outperforms existing methods, and freezing exhibits improved performance in small-sample regimes.},
   primaryClass={stat.ML},
   archivePrefix={arXiv},
   eprint={2502.10826},
@@ -439,17 +439,6 @@ The utility of the proposed approach is demonstrated through experiments for joi
   note={Submitted. <a href="http://bayesiandeeplearning.org/2018/papers/122.pdf">{A preliminary version}</a> of this manuscript was presented at the Bayesian Deep Learning Workshop at NeurIPS 2018, and <a href="http://bayesiandeeplearning.org/2021/papers/67.pdf">{an abridged version}</a> of the current manuscript was presented at the Bayesian Deep Learning workshop at NeurIPS 2021.},
 } % ; ``reject and resubmit'' from <i>{IEEE} Trans. Pattern Anal. Mach. Intell.</i><br>
   
-# working papers
-@unpublished{Jayashankar--Ryu--Xu--Wornell2024,
-  abbr={working},
-  title={Lifted Residual Score Estimation},
-  author={Jayashankar*, Tejas and Ryu*, J. Jon and Xu, Xiangxiang and Wornell, Gregory W.},
-  year={2024},
-  author+an={2=highlight},
-  selected={false},
-  note={Submitted. <a href="https://openreview.net/forum?id=5wdY7N5hNn">{An extended abstract}</a> will be presented at <a href="https://spigmworkshop2024.github.io/">{ICML 2024 Workshop on Structured Probabilistic Inference & Generative Modeling}</a>.}
-}
-
 @misc{Jeong--Ryu--Yun--Wornell2025,
   abbr={working},
   title={Efficient Parametric SVD of Koopman Operator for Stochastic Dynamical Systems},
@@ -461,7 +450,19 @@ The utility of the proposed approach is demonstrated through experiments for joi
   primaryClass={cs.LG},
   journal={arXiv:2507.07222},
   selected={false},
+  abstract={The Koopman operator provides a principled framework for analyzing nonlinear dynamical systems through linear operator theory. Recent advances in dynamic mode decomposition (DMD) have shown that trajectory data can be used to identify dominant modes of a system in a data-driven manner. Building on this idea, deep learning methods such as VAMPnet and DPNet have been proposed to learn the leading singular subspaces of the Koopman operator. However, these methods require backpropagation through potentially numerically unstable operations on empirical second moment matrices, such as singular value decomposition and matrix inversion, during objective computation, which can introduce biased gradient estimates and hinder scalability to large systems. In this work, we propose a scalable and conceptually simple method for learning the top-k singular functions of the Koopman operator for stochastic dynamical systems based on the idea of low-rank approximation. Our approach eliminates the need for unstable linear algebraic operations and integrates easily into modern deep learning pipelines. Empirical results demonstrate that the learned singular subspaces are both reliable and effective for downstream tasks such as eigen-analysis and multi-step prediction.},
   note={Submitted.}
+}
+
+# working papers
+@unpublished{Jayashankar--Ryu--Xu--Wornell2024,
+  abbr={working},
+  title={Lifted Residual Score Estimation},
+  author={Jayashankar*, Tejas and Ryu*, J. Jon and Xu, Xiangxiang and Wornell, Gregory W.},
+  year={2024},
+  author+an={2=highlight},
+  selected={false},
+  note={Submitted. <a href="https://openreview.net/forum?id=5wdY7N5hNn">{An extended abstract}</a> will be presented at <a href="https://spigmworkshop2024.github.io/">{ICML 2024 Workshop on Structured Probabilistic Inference & Generative Modeling}</a>.}
 }
 
 @unpublished{Ryu--Zhou--Wornell2025,
