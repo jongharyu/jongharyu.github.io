@@ -6,6 +6,14 @@
   url: https://neurips.cc/
   color: "#00369f"
 
+"AISTATS":
+  url: https://aistats.org/
+  color: "#00369f"
+
+"COLT":
+  url: https://learningtheory.org/
+  color: "#00369f"
+
 "TransIT":
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=18
   color: "#ff6f00"
