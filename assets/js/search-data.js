@@ -501,7 +501,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/jongha-jon-ryu-997ba7a7", "_blank");
+          window.open("https://www.linkedin.com/in/jongha-ryu-997ba7a7", "_blank");
         },
       },{
         id: 'social-scholar',
