@@ -1,3 +1,10 @@
+"working":
+  color: "#ffffff"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#a1a1a1"
+
 "ICML":
   url: https://icml.cc/
   color: "#00369f"
