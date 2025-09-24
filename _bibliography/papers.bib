@@ -402,6 +402,32 @@ We demonstrate the effectiveness of the proposed optimization framework for use 
   selected={true},
 }
 
+@inproceedings{Jeong--Ryu--Yun--Wornell2025,
+  abbr={NeurIPS},
+  title={Efficient Parametric SVD of Koopman Operator for Stochastic Dynamical Systems},
+  author={Jeong*, Minchan and Ryu*, J. Jon and Yun, Se-Young and Wornell, Gregory W.},
+  year={2025},
+  booktitle=neurips,
+  author+an={2=highlight},
+  eprint={2507.07222},
+  arxiv={2507.07222},
+  primaryClass={cs.LG},
+  selected={false},
+  abstract={The Koopman operator provides a principled framework for analyzing nonlinear dynamical systems through linear operator theory. Recent advances in dynamic mode decomposition (DMD) have shown that trajectory data can be used to identify dominant modes of a system in a data-driven manner. Building on this idea, deep learning methods such as VAMPnet and DPNet have been proposed to learn the leading singular subspaces of the Koopman operator. However, these methods require backpropagation through potentially numerically unstable operations on empirical second moment matrices, such as singular value decomposition and matrix inversion, during objective computation, which can introduce biased gradient estimates and hinder scalability to large systems. In this work, we propose a scalable and conceptually simple method for learning the top-k singular functions of the Koopman operator for stochastic dynamical systems based on the idea of low-rank approximation. Our approach eliminates the need for unstable linear algebraic operations and integrates easily into modern deep learning pipelines. Empirical results demonstrate that the learned singular subspaces are both reliable and effective for downstream tasks such as eigen-analysis and multi-step prediction.},
+  note={Submitted.}
+}
+
+@inproceedings{Ryu--Zhou--Wornell2025,
+  abbr={NeurIPS},
+  title={Revisiting Orbital Minimization for Neural Operator Decomposition},
+  author={Ryu, J. Jon and Zhou, Samuel and Wornell, Gregory W.},
+  year={2025},
+  booktitle=neurips,
+  author+an={1=highlight},
+  selected={false},
+  abstract={Spectral decomposition of linear operators plays a central role in many areas of machine learning and scientific computing. Recent work has explored training neural networks to approximate eigenfunctions of such operators, enabling scalable approaches to representation learning, dynamical systems, and partial differential equations (PDEs). In this paper, we revisit a classical optimization framework from the computational physics literature known as the *orbital minimization method* (OMM), originally proposed in the 1990s for solving eigenvalue problems in computational chemistry. We provide a simple linear algebraic proof of the consistency of the OMM objective, and reveal connections between this method and several ideas that have appeared independently across different domains. Our primary goal is to justify its broader applicability in modern learning pipelines. We adapt this framework to train neural networks to decompose positive semidefinite operators, and demonstrate its practical advantages across a range of benchmark tasks. Our results highlight how revisiting classical numerical methods through the lens of modern theory and computation can provide not only a principled approach for deploying neural networks in numerical analysis, but also effective and scalable tools for machine learning.},
+}
+
 % preprints
 @misc{Ryu--Kim2021,
   abbr={arXiv},
@@ -438,21 +464,6 @@ The utility of the proposed approach is demonstrated through experiments for joi
   selected={false},
   note={Submitted. <a href="http://bayesiandeeplearning.org/2018/papers/122.pdf">{A preliminary version}</a> of this manuscript was presented at the Bayesian Deep Learning Workshop at NeurIPS 2018, and <a href="http://bayesiandeeplearning.org/2021/papers/67.pdf">{an abridged version}</a> of the current manuscript was presented at the Bayesian Deep Learning workshop at NeurIPS 2021.},
 } % ; ``reject and resubmit'' from <i>{IEEE} Trans. Pattern Anal. Mach. Intell.</i><br>
-  
-@misc{Jeong--Ryu--Yun--Wornell2025,
-  abbr={working},
-  title={Efficient Parametric SVD of Koopman Operator for Stochastic Dynamical Systems},
-  author={Jeong*, Minchan and Ryu*, J. Jon and Yun, Se-Young and Wornell, Gregory W.},
-  year={2025},
-  author+an={2=highlight},
-  eprint={2507.07222},
-  arxiv={2507.07222},
-  primaryClass={cs.LG},
-  journal={arXiv:2507.07222},
-  selected={false},
-  abstract={The Koopman operator provides a principled framework for analyzing nonlinear dynamical systems through linear operator theory. Recent advances in dynamic mode decomposition (DMD) have shown that trajectory data can be used to identify dominant modes of a system in a data-driven manner. Building on this idea, deep learning methods such as VAMPnet and DPNet have been proposed to learn the leading singular subspaces of the Koopman operator. However, these methods require backpropagation through potentially numerically unstable operations on empirical second moment matrices, such as singular value decomposition and matrix inversion, during objective computation, which can introduce biased gradient estimates and hinder scalability to large systems. In this work, we propose a scalable and conceptually simple method for learning the top-k singular functions of the Koopman operator for stochastic dynamical systems based on the idea of low-rank approximation. Our approach eliminates the need for unstable linear algebraic operations and integrates easily into modern deep learning pipelines. Empirical results demonstrate that the learned singular subspaces are both reliable and effective for downstream tasks such as eigen-analysis and multi-step prediction.},
-  note={Submitted.}
-}
 
 # working papers
 @unpublished{Jayashankar--Ryu--Xu--Wornell2024,
@@ -463,16 +474,6 @@ The utility of the proposed approach is demonstrated through experiments for joi
   author+an={2=highlight},
   selected={false},
   note={Submitted. <a href="https://openreview.net/forum?id=5wdY7N5hNn">{An extended abstract}</a> will be presented at <a href="https://spigmworkshop2024.github.io/">{ICML 2024 Workshop on Structured Probabilistic Inference & Generative Modeling}</a>.}
-}
-
-@unpublished{Ryu--Zhou--Wornell2025,
-  abbr={working},
-  title={Revisiting Orbital Minimization for Neural Operator Decomposition},
-  author={Ryu, J. Jon and Zhou, Samuel and Wornell, Gregory W.},
-  year={2025},
-  author+an={1=highlight},
-  selected={false},
-  note={Submitted.}
 }
 
 @unpublished{Ryu--Yeddanapudi--Xu--Wornell2025,
