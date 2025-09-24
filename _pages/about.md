@@ -37,17 +37,17 @@ I am interested in a broad range of topics related to learning from data, both i
 My recent research focuses on:
 
 - **New machine learning techniques for scalable scientific simulation**
-  - a parametric framework for operator SVD ([NeuralSVD [ICML2024a]](http://arxiv.org/abs/2402.03655))  
-  - applications: analyzing nonlinear dynamical systems ([NeuralSVD on Koopman operator [arXiv2025]](http://arxiv.org/abs/2507.07222))
-  - principles and unification ([work in progress](https://jongharyu.github.io/))
+  - a parametric framework for operator SVD ([NeuralSVD [ICML'24a]](http://arxiv.org/abs/2402.03655))  
+  - applications: analyzing nonlinear dynamical systems ([NeuralSVD on Koopman operator [NeurIPS'25a]](http://arxiv.org/abs/2507.07222))
+  - principles: [revisiting "orbital minimization method" [NeurIPS'25b]](https://jongharyu.github.io)
 
 - **New techniques for probabilistic (generative) models**
-  - an efficient framework for training one-step, high-quality generative models ([Score-of-Mixture Training [ICML2025a]](https://arxiv.org/abs/2502.09609))  
-  - unifying principles for learning with energy-based models [[ICML2025b](http://arxiv.org/abs/2409.18209)]
+  - an efficient framework for training one-step, high-quality generative models ([Score-of-Mixture Training [ICML'25a]](https://arxiv.org/abs/2502.09609))  
+  - unifying principles for learning with energy-based models [[ICML'25b](http://arxiv.org/abs/2409.18209)]
 
 - **New techniques and perspectives for uncertainty quantification**
-  - universal gambling-based time-uniform confidence sets [[TIT2024]](http://arxiv.org/abs/2207.12382), [[ICML2024b]](http://arxiv.org/abs/2402.03683), and applications [[COLT2025]](https://arxiv.org/abs/2502.10826)  
-  - identifying pitfalls of evidential deep learning [[NeurIPS2024](http://arxiv.org/abs/2402.06160)]
+  - universal gambling-based time-uniform confidence sets [[TransIT'24]](http://arxiv.org/abs/2207.12382), [[ICML'24b]](http://arxiv.org/abs/2402.03683), and applications [[COLT'25]](https://arxiv.org/abs/2502.10826)  
+  - identifying pitfalls of evidential deep learning [[NeurIPS'24](http://arxiv.org/abs/2402.06160)]
 
 [//]: # (- **Some unifying views on nearest-neighbor methods**)
 
