@@ -1,6 +1,9 @@
 "working":
   color: "#ffffff"
 
+"Tech. Report":
+  color: "#ffffff"
+
 "arXiv":
   url: https://arxiv.org/
   color: "#a1a1a1"
