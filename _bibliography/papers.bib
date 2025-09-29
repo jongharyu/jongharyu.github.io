@@ -463,6 +463,17 @@ The utility of the proposed approach is demonstrated through experiments for joi
   note={Submitted. <a href="http://bayesiandeeplearning.org/2018/papers/122.pdf">{A preliminary version}</a> of this manuscript was presented at the Bayesian Deep Learning Workshop at NeurIPS 2018, and <a href="http://bayesiandeeplearning.org/2021/papers/67.pdf">{an abridged version}</a> of the current manuscript was presented at the Bayesian Deep Learning workshop at NeurIPS 2021.},
 } % ; ``reject and resubmit'' from <i>{IEEE} Trans. Pattern Anal. Mach. Intell.</i><br>
 
+@misc{Yun--Kim--Park--Kim--Ryu--Cho--Jun2025,
+  abbr={arXiv},
+  title={Alignment as Distribution Learning: Your Preference Model is Explicitly a Language Model},
+  author={Yun, Jihun and Kim, Juno and Park, Jongho and Kim, Junhyuck and Ryu, J. Jon and Cho, Jaewoong and Jun, Kwang-Sung},
+  year={2025},
+  author+an={5=highlight},
+  arxiv={2506.01523},
+  abstract={Alignment via reinforcement learning from human feedback (RLHF) has become the dominant paradigm for controlling the quality of outputs from large language models (LLMs). However, when viewed as ‘loss + regularization,’ the standard RLHF objective lacks theoretical justification and incentivizes degenerate, deterministic solutions, an issue that variants such as Direct Policy Optimization (DPO) also inherit. In this paper, we rethink alignment by framing it as distribution learning from pairwise preference feedback by explicitly modeling how information about the target language model bleeds through the preference data. This explicit modeling leads us to propose three principled learning objectives: preference maximum likelihood estimation, preference distillation, and reverse KL minimization. We theoretically show that all three approaches enjoy strong non-asymptotic $O(1/n)$ convergence to the target language model, naturally avoiding degeneracy and reward overfitting. Finally, we empirically demonstrate that our distribution learning framework, especially preference distillation, consistently outperforms or matches the performances of RLHF and DPO across various tasks and models.},
+  selected={false},
+}
+
 # working papers
 @unpublished{Ryu--Yeddanapudi--Xu--Wornell2025,
   abbr={working},
