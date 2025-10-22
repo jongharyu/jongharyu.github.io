@@ -44,10 +44,10 @@ nav: true
 ## reviewer service
 
 - **Journal**: [TransIT](https://www.itsoc.org/it-trans), [JSAIT](https://www.itsoc.org/jsait).
-- **Conference**:
+- **Conference**: $^{\star}$ indicates Top Reviewer recognition.
   - ICML {2022, 2023, 2024, 2025}
-  - NeurIPS {2022, 2023 (top reviewer), 2024, 2025}
-  - ICLR 2024
+  - NeurIPS {2022, 2023$^{\star}$, 2024, 2025$^{\star}$}
+  - ICLR {2024, 2026}
   - AISTATS {2022, 2023, 2024}
   - ISIT {2017, 2023, 2024, 2025}
   - ITW 2022

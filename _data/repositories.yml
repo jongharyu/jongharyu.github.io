@@ -4,8 +4,9 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - tkj516/score-of-mixture-training
   - jongharyu/neural-svd
+  - tkj516/score-of-mixture-training
+  - maohaos2/edl-mirage
   - jongharyu/confidence-sequence-via-gambling
   - jongharyu/wyner-model
   - jongharyu/split-knn-rules
