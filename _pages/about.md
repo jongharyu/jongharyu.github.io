@@ -37,9 +37,8 @@ I am interested in a broad range of topics related to learning from data, both i
 My recent research focuses on:
 
 - **New machine learning techniques for scalable scientific simulation**
-  - a parametric framework for operator SVD ([NeuralSVD [ICML'24a]](http://arxiv.org/abs/2402.03655))  
+  - methodologies: parametric operator SVD frameworks ([NeuralSVD [ICML'24a]](http://arxiv.org/abs/2402.03655), [NestedOMM [NeurIPS'25b]](https://arxiv.org/abs/2510.21952))  
   - applications: analyzing nonlinear dynamical systems ([NeuralSVD on Koopman operator [NeurIPS'25a]](http://arxiv.org/abs/2507.07222))
-  - principles: [revisiting "orbital minimization method" [NeurIPS'25b]](https://jongharyu.github.io)
 
 - **New techniques for probabilistic (generative) models**
   - an efficient framework for training one-step, high-quality generative models ([Score-of-Mixture Training [ICML'25a]](https://arxiv.org/abs/2502.09609))  
@@ -47,7 +46,7 @@ My recent research focuses on:
 
 - **New techniques and perspectives for uncertainty quantification**
   - universal gambling-based time-uniform confidence sets [[TransIT'24]](http://arxiv.org/abs/2207.12382), [[ICML'24b]](http://arxiv.org/abs/2402.03683), and applications [[COLT'25]](https://arxiv.org/abs/2502.10826)  
-  - identifying pitfalls of evidential deep learning [[NeurIPS'24](http://arxiv.org/abs/2402.06160)]
+  - identifying pitfalls of evidential deep learning [[NeurIPS'24]](http://arxiv.org/abs/2402.06160)
 
 [//]: # (- **Some unifying views on nearest-neighbor methods**)
 
