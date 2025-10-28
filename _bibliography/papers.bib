@@ -110,7 +110,7 @@
   pdf={tit2022.pdf},
   arxiv={1805.08342},
   code={https://github.com/jongharyu/knn-functional-estimation},
-  selected={true},
+  selected={false},
   abstract={A new approach to $L_2$-consistent estimation of a general density functional using k-nearest neighbor distances is proposed, where the functional under consideration is in the form of the expectation of some function f of the densities at each point. The estimator is designed to be asymptotically unbiased, using the convergence of the normalized volume of a $k$-nearest neighbor ball to a Gamma distribution in the large-sample limit, and naturally involves the inverse Laplace transform of a scaled version of the function $f$. Some instantiations of the proposed estimator recover existing $k$-nearest neighbor based estimators of Shannon and Rényi entropies and Kullback–Leibler and Rényi divergences, and discover new consistent estimators for many other functionals such as logarithmic entropies and divergences. The $L_2$-consistency of the proposed estimator is established for a broad class of densities for general functionals, and the convergence rate in mean squared error is established as a function of the sample size for smooth, bounded densities.},
 }
 
@@ -424,18 +424,25 @@ We demonstrate the effectiveness of the proposed optimization framework for use 
   eprint={2507.07222},
   arxiv={2507.07222},
   primaryClass={cs.LG},
-  selected={false},
+  pdf={neurips2025a.pdf},
+  selected={true},
+  html={https://openreview.net/forum?id=kL2pnzClyD},
   abstract={The Koopman operator provides a principled framework for analyzing nonlinear dynamical systems through linear operator theory. Recent advances in dynamic mode decomposition (DMD) have shown that trajectory data can be used to identify dominant modes of a system in a data-driven manner. Building on this idea, deep learning methods such as VAMPnet and DPNet have been proposed to learn the leading singular subspaces of the Koopman operator. However, these methods require backpropagation through potentially numerically unstable operations on empirical second moment matrices, such as singular value decomposition and matrix inversion, during objective computation, which can introduce biased gradient estimates and hinder scalability to large systems. In this work, we propose a scalable and conceptually simple method for learning the top-k singular functions of the Koopman operator for stochastic dynamical systems based on the idea of low-rank approximation. Our approach eliminates the need for unstable linear algebraic operations and integrates easily into modern deep learning pipelines. Empirical results demonstrate that the learned singular subspaces are both reliable and effective for downstream tasks such as eigen-analysis and multi-step prediction.},
 }
 
 @inproceedings{Ryu--Zhou--Wornell2025,
   abbr={NeurIPS},
-  title={Revisiting Orbital Minimization for Neural Operator Decomposition},
+  title={Revisiting Orbital Minimization Method for Neural Operator Decomposition},
   author={Ryu, J. Jon and Zhou, Samuel and Wornell, Gregory W.},
   year={2025},
   booktitle=neurips,
   author+an={1=highlight},
-  selected={false},
+  selected={true},
+  eprint={2507.21952},
+  arxiv={2507.21952},
+  primaryClass={cs.LG},
+  pdf={neurips2025b.pdf},
+  html={https://openreview.net/forum?id=AlRJVX5CRi},
   abstract={Spectral decomposition of linear operators plays a central role in many areas of machine learning and scientific computing. Recent work has explored training neural networks to approximate eigenfunctions of such operators, enabling scalable approaches to representation learning, dynamical systems, and partial differential equations (PDEs). In this paper, we revisit a classical optimization framework from the computational physics literature known as the *orbital minimization method* (OMM), originally proposed in the 1990s for solving eigenvalue problems in computational chemistry. We provide a simple linear algebraic proof of the consistency of the OMM objective, and reveal connections between this method and several ideas that have appeared independently across different domains. Our primary goal is to justify its broader applicability in modern learning pipelines. We adapt this framework to train neural networks to decompose positive semidefinite operators, and demonstrate its practical advantages across a range of benchmark tasks. Our results highlight how revisiting classical numerical methods through the lens of modern theory and computation can provide not only a principled approach for deploying neural networks in numerical analysis, but also effective and scalable tools for machine learning.},
 }
 
