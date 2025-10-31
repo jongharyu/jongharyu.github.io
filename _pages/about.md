@@ -40,9 +40,10 @@ My recent research focuses on:
   - methodologies: parametric operator SVD frameworks ([NeuralSVD [ICML'24a]](http://arxiv.org/abs/2402.03655), [NestedOMM [NeurIPS'25b]](https://arxiv.org/abs/2510.21952))  
   - applications: analyzing nonlinear dynamical systems ([NeuralSVD on Koopman operator [NeurIPS'25a]](http://arxiv.org/abs/2507.07222))
 
-- **New techniques for probabilistic (generative) models**
+- **New techniques for probabilistic inference**
   - an efficient framework for training one-step, high-quality generative models ([Score-of-Mixture Training [ICML'25a]](https://arxiv.org/abs/2502.09609))  
   - unifying principles for learning with energy-based models [[ICML'25b](http://arxiv.org/abs/2409.18209)]
+  - fixing CPC/InfoNCE for information estimation [[arXiv'25](https://arxiv.org/abs/2510.25983)]
 
 - **New techniques and perspectives for uncertainty quantification**
   - universal gambling-based time-uniform confidence sets [[TransIT'24]](http://arxiv.org/abs/2207.12382), [[ICML'24b]](http://arxiv.org/abs/2402.03683), and applications [[COLT'25]](https://arxiv.org/abs/2502.10826)  
