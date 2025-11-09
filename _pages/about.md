@@ -37,8 +37,8 @@ As an information theorist by training, I **distill complex ideas**, **unify pri
 ## research focus
 
 - **Neural spectral methods for scientific computation and ML**  
-  - **Methods**: NeuralSVD [[ICML'24a]](http://arxiv.org/abs/2402.03655), NestedOMM [[NeurIPS'25b]](https://arxiv.org/abs/2510.21952)  
-  - **Applications**: Koopman–NeuralSVD [[NeurIPS'25a]](http://arxiv.org/abs/2507.07222)
+  - Methods: NeuralSVD [[ICML'24a]](http://arxiv.org/abs/2402.03655), NestedOMM [[NeurIPS'25b]](https://arxiv.org/abs/2510.21952)  
+  - Applications: NeuralSVD on Koopman analysis [[NeurIPS'25a]](http://arxiv.org/abs/2507.07222)
 
 - **Principled frameworks for score-, energy-, and ratio-based learning**  
   - New score-based method for generative modeling [[ICML'25a, *Spotlight*]](https://arxiv.org/abs/2502.09609)  
