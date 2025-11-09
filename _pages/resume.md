@@ -8,6 +8,13 @@ nav: true
 ---
 
 ---
+## employment
+
+- **MIT**, 2022--
+  - Postdoctoral Associate, August 2022--present
+  - Host: [Gregory W. Wornell](http://allegro.mit.edu/~gww/)
+
+---
 
 ## education
 
@@ -21,36 +28,16 @@ nav: true
   - Honors: summa cum laude (GPA: 4.11/4.3).
 - **Seoul Science High School**, 2006--2008.
 
----
-
-## employment
-
-- **MIT**, 2022--
-  - Postdoctoral Associate, August 2022--present
-  - Host: [Gregory W. Wornell](http://allegro.mit.edu/~gww/)
-
----
-
 ## honors and awards
-
-- Departmental Fellowship, Department of ECE, UCSD, 2015--2016.
+- Spotlight Recognitions -- [ICML 2024](https://openreview.net/forum?id=mu7Er7f9NQ), [ICML 2025](https://openreview.net/forum?id=zk5k2NQcEA) (top < 3% acceptance rate).
+- Top Reviewer Awards -- [NeurIPS 2023](https://neurips.cc/Conferences/2023/ProgramCommittee#top-reivewers), [NeurIPS 2025](https://neurips.cc/Conferences/2025/ProgramCommittee#top-reviewer).
+- Departmental Fellowship, Department of ECE, UC San Diego, 2015–2016.
 - Kwanjeong Scholarship, [Kwanjeong Educational Foundation](http://en.ikef.or.kr/).
-  - for graduate study (5 years), 2015--2020.
-  - for undergraduate study (2 years), 2010--2013.
+  - for graduate study (5 years), 2015–2020.
+  - for undergraduate study (2 years), 2010–2013.
 - University Students Contest of Mathematics, Korean Mathematical Society.
   - Bronze Prize (2013) (math majors).
   - Gold Prize (2010), Honorable Mention (2009) (non-math majors).
-
-## reviewer service
-
-- **Journal**: [TransIT](https://www.itsoc.org/it-trans), [JSAIT](https://www.itsoc.org/jsait).
-- **Conference**: $^{\star}$ indicates Top Reviewer recognition.
-  - ICML {2022, 2023, 2024, 2025}
-  - NeurIPS {2022, 2023$^{\star}$, 2024, 2025$^{\star}$}
-  - ICLR {2024, 2026}
-  - AISTATS {2022, 2023, 2024}
-  - ISIT {2017, 2023, 2024, 2025}
-  - ITW 2022
 
 ---
 
@@ -67,17 +54,32 @@ nav: true
 
 - **MIT**: as a postdoctoral instructor, I was in charge of the following course.
   - [6.7800 Inference and Information](https://web.mit.edu/6.7800/www/info24.pdf) (Spring 2024, Spring 2025)
-    - highlight: designed and lectured bonus sessions on advanced topics of the course.
-    - topics: minimax optimal bit prediction, group testing and Fano's inequality, universal large-deviation bounds, plug-and-play universal prediction, variational techniques in generative models.
+    - Highlight: designed and lectured bonus sessions on advanced topics of the course.
+    - Topics: minimax optimal bit prediction, group testing and Fano's inequality, universal large-deviation bounds, plug-and-play universal prediction, variational techniques in generative models.
 - **UCSD**: I was a teaching assistant for the following courses.
   - [ECE 269 Linear Algebra and Applications](https://web.eng.ucsd.edu/~yhk/ece225b-spr18/) (Winter 2019)
   - [ECE 225B Universal Probability and Applications in Data Science](https://web.eng.ucsd.edu/~yhk/ece225b-spr18/) (Spring 2018)
-    - highlight: designed hands-on programming assignments for the class based on Python.
-    - topics: Lempel--Ziv probability assignment, context-tree weighting, and universal portfolio.
+    - Highlight: designed hands-on programming assignments for the class based on Python.
+    - Topics: Lempel--Ziv probability assignment, context-tree weighting, and universal portfolio.
   - [ECE 250 Random Processes](https://web.eng.ucsd.edu/~yhk/ece250-win17/) (Winter 2017)
   - [ECE 154C Communication Systems](https://web.eng.ucsd.edu/~yhk/ece154c-spr17/) (Spring 2017)
-    - highlight: designed hands-on programming assignments for the class based on Julia.
-    - topics: basic source coding and channel coding algorithms.
+    - Highlight: designed hands-on programming assignments for the class based on Julia.
+    - Topics: basic source coding and channel coding algorithms.
+
+---
+
+## reviewer service
+
+- **Journal**: [TransIT](https://www.itsoc.org/it-trans), [JSAIT](https://www.itsoc.org/jsait).
+- **Conference**:
+  - ICML {2022, 2023, 2024, 2025}
+  - NeurIPS {2022, 2023, 2024, 2025}
+  - ICLR {2024, 2026}
+  - AISTATS {2022, 2023, 2024}
+  - ISIT {2017, 2023, 2024, 2025}
+  - ITW 2022
+  
+---
 
 ## selected graduate coursework
 
