@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral Associate at MIT
+subtitle: 
 
 profile:
   align: right
@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a postdoctoral associate in [MIT EECS](https://www.eecs.mit.edu/)/[RLE](https://www.rle.mit.edu), hosted by [Gregory W. Wornell](http://allegro.mit.edu/~gww/).  
+I am a Postdoctoral Associate at [MIT EECS](https://www.eecs.mit.edu/)/[RLE](https://www.rle.mit.edu), hosted by [Gregory W. Wornell](http://allegro.mit.edu/~gww/).  
 My research builds **spectral and information-theoretic foundations for machine learning**, developing scalable frameworks for **operator learning**, **probabilistic and generative modeling**, and **uncertainty quantification**.
 
 As an information theorist by training, I **distill complex ideas**, **unify principles across domains**, and **translate them into scalable algorithms** bridging theory and practice.
