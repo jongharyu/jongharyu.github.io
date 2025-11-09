@@ -30,26 +30,26 @@ latest_posts:
 I am a postdoctoral associate in [MIT EECS](https://www.eecs.mit.edu/)/[RLE](https://www.rle.mit.edu), hosted by [Gregory W. Wornell](http://allegro.mit.edu/~gww/).  
 My research builds **spectral and information-theoretic foundations for machine learning**, developing scalable frameworks for **operator learning**, **probabilistic and generative modeling**, and **uncertainty quantification**.
 
-As an information theorist by training, I **distill complex ideas**, **unify principles across domains**, and **translate them into scalable algorithms** that bridge theory and practice.
+As an information theorist by training, I **distill complex ideas**, **unify principles across domains**, and **translate them into scalable algorithms** bridging theory and practice.
 
 ---
 
 ## research focus
 
-- **Neural spectral methods for scientific computation and ML**  
+- **Neural spectral methods for science & machine learning**
   - Methods: NeuralSVD [[ICML'24a]](http://arxiv.org/abs/2402.03655), NestedOMM [[NeurIPS'25b]](https://arxiv.org/abs/2510.21952)  
-  - Applications: NeuralSVD on Koopman analysis [[NeurIPS'25a]](http://arxiv.org/abs/2507.07222)
+  - Applications: NeuralSVD for Koopman analysis [[NeurIPS'25a]](http://arxiv.org/abs/2507.07222)
 
 - **Principled frameworks for score-, energy-, and ratio-based learning**  
   - New score-based method for generative modeling [[ICML'25a, *Spotlight*]](https://arxiv.org/abs/2502.09609)  
-  - Unifying contrastive learning framework for energy-based models [[ICML'25b]](http://arxiv.org/abs/2409.18209)  
+  - Unifying NCE-based lens for energy-based models [[ICML'25b]](http://arxiv.org/abs/2409.18209)  
   - Principled correction of InfoNCE for information estimation [[arXiv'25]](https://arxiv.org/abs/2510.25983)
 
 - **Information-theoretic techniques for uncertainty quantification**  
   - Time-uniform confidence sets for:
       - Bounded random variables [[TransIT'24]](http://arxiv.org/abs/2207.12382)
       - Bounded random vectors [[ICML'24b, *Spotlight*]](http://arxiv.org/abs/2402.03683)
-      - Nonnegative random variables [[COLT'25]](https://arxiv.org/abs/2502.10826) (applied to off-policy contextual bandit)
+      - Nonnegative random variables [[COLT'25]](https://arxiv.org/abs/2502.10826) (applied to off-policy contextual bandits)
   - Pitfalls of evidential deep learning [[NeurIPS'24]](http://arxiv.org/abs/2402.06160)
 
 ---
