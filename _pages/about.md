@@ -13,8 +13,8 @@ profile:
     <p>50 Vassar St</p>
     <p>Cambridge, MA 02139</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -27,42 +27,35 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently a postdoctoral associate at MIT, hosted by [Gregory W. Wornell](http://allegro.mit.edu/~gww/).
-Prior to joining MIT, I received my Ph.D. in [Electrical Engineering](https://ece.ucsd.edu/) from [UC San Diego](https://ucsd.edu/),
-where I was fortunate to be advised by [Young-Han Kim](https://web.eng.ucsd.edu/~yhk/) and [Sanjoy Dasgupta](https://cseweb.ucsd.edu/~dasgupta/).
-My graduate study was generously supported by the [Kwanjeong Educational Foundation](http://www.ikef.or.kr/).
-Before the graduate study, I received my B.S. in [Electrical and Computer Engineering](https://ece.snu.ac.kr/en) and B.S. in [Mathematical Sciences](https://www.math.snu.ac.kr/) (with minor in [Physics](https://physics.snu.ac.kr/en)) with the highest distinction from [Seoul National University](https://en.snu.ac.kr).
+I am a postdoctoral associate in [MIT EECS](https://www.eecs.mit.edu/)/[RLE](https://www.rle.mit.edu), hosted by [Gregory W. Wornell](http://allegro.mit.edu/~gww/).  
+My research builds **spectral and information-theoretic foundations for machine learning**, developing scalable frameworks for **operator learning**, **probabilistic and generative modeling**, and **uncertainty quantification**.
 
-I am interested in a broad range of topics related to learning from data, both in theory and practice.
-My recent research focuses on:
+As an information theorist by training, I **distill complex ideas**, **unify principles across domains**, and **translate them into scalable algorithms** that bridge theory and practice.
 
-- **New machine learning techniques for scalable scientific simulation**
-  - methodologies: parametric operator SVD frameworks ([NeuralSVD [ICML'24a]](http://arxiv.org/abs/2402.03655), [NestedOMM [NeurIPS'25b]](https://arxiv.org/abs/2510.21952))  
-  - applications: analyzing nonlinear dynamical systems ([NeuralSVD on Koopman operator [NeurIPS'25a]](http://arxiv.org/abs/2507.07222))
+---
 
-- **New techniques for probabilistic inference**
-  - an efficient framework for training one-step, high-quality generative models ([Score-of-Mixture Training [ICML'25a]](https://arxiv.org/abs/2502.09609))  
-  - unifying principles for learning with energy-based models [[ICML'25b](http://arxiv.org/abs/2409.18209)]
-  - fixing CPC/InfoNCE for information estimation [[arXiv'25](https://arxiv.org/abs/2510.25983)]
+## research focus
 
-- **New techniques and perspectives for uncertainty quantification**
-  - universal gambling-based time-uniform confidence sets [[TransIT'24]](http://arxiv.org/abs/2207.12382), [[ICML'24b]](http://arxiv.org/abs/2402.03683), and applications [[COLT'25]](https://arxiv.org/abs/2502.10826)  
-  - identifying pitfalls of evidential deep learning [[NeurIPS'24]](http://arxiv.org/abs/2402.06160)
+- **Neural spectral methods for scientific computation and ML**  
+  - **Methods**: NeuralSVD [[ICML'24a]](http://arxiv.org/abs/2402.03655), NestedOMM [[NeurIPS'25b]](https://arxiv.org/abs/2510.21952)  
+  - **Applications**: Koopman–NeuralSVD [[NeurIPS'25a]](http://arxiv.org/abs/2507.07222)
 
-[//]: # (- **Some unifying views on nearest-neighbor methods**)
+- **Principled frameworks for score-, energy-, and ratio-based learning**  
+  - New score-based method for generative modeling [[ICML'25a, *Spotlight*]](https://arxiv.org/abs/2502.09609)  
+  - Unifying contrastive learning framework for energy-based models [[ICML'25b]](http://arxiv.org/abs/2409.18209)  
+  - Principled correction of InfoNCE for information estimation [[arXiv'25]](https://arxiv.org/abs/2510.25983)
 
-[//]: # (  - unified view on density functional estimation with fixed-k-NNs [[TIT2022]]&#40;http://arxiv.org/abs/1805.08342&#41;)
+- **Information-theoretic techniques for uncertainty quantification**  
+  - Time-uniform confidence sets for:
+      - Bounded random variables [[TransIT'24]](http://arxiv.org/abs/2207.12382)
+      - Bounded random vectors [[ICML'24b, *Spotlight*]](http://arxiv.org/abs/2402.03683)
+      - Nonnegative random variables [[COLT'25]](https://arxiv.org/abs/2502.10826) (applied to off-policy contextual bandit)
+  - Pitfalls of evidential deep learning [[NeurIPS'24]](http://arxiv.org/abs/2402.06160)
 
-[//]: # (  - efficient small-k-nearest-neighbors algorithms [[arXiv2022]]&#40;http://arxiv.org/abs/2202.02464&#41;)
-  
-[//]: # (- **Information-theoretic tools for machine learning**)
+---
 
-[//]: # (  - from universal compression to parameter-free online optimization [[AISTATS2022]]&#40;http://arxiv.org/abs/2202.02406&#41;)
+## background
+[//]: #
+Before MIT, I received my Ph.D. in [Electrical Engineering](https://ece.ucsd.edu/) from [UC San Diego](https://ucsd.edu/), advised by [Young-Han Kim](https://web.eng.ucsd.edu/~yhk/) and [Sanjoy Dasgupta](https://cseweb.ucsd.edu/~dasgupta/), supported by the [Kwanjeong Educational Foundation](http://www.ikef.or.kr/). I hold dual B.S. degrees in [Electrical and Computer Engineering](https://ece.snu.ac.kr/en) and [Mathematical Sciences](https://www.math.snu.ac.kr/), with a minor in [Physics](https://physics.snu.ac.kr/en), from [Seoul National University](https://en.snu.ac.kr), graduating with the highest distinction.
 
-[//]: # (  - information-theoretic common representation learning &#40;[variational Wyner model [arXiv]]&#40;http://arxiv.org/abs/1905.10945&#41;&#41;)
-
-[//]: # (  - unifying evidential deep learning methods for uncertainty quantification [[NeurIPS2024]&#40;http://arxiv.org/abs/2402.06160&#41;])
-
-As an information theorist by training, I enjoy doing research by simplifying intricate ideas, unifying concepts, and generalizing them to address complex problems.
-
-Check out my [resume](/resume) for more information.
+---
