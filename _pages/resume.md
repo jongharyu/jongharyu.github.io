@@ -29,7 +29,7 @@ nav: true
 - **Seoul Science High School**, 2006--2008.
 
 ## honors and awards
-- Spotlight Recognitions -- [ICML 2024](https://openreview.net/forum?id=mu7Er7f9NQ), [ICML 2025](https://openreview.net/forum?id=zk5k2NQcEA) (top < 3% acceptance rate).
+- Spotlight Recognitions -- [ICML 2024](https://openreview.net/forum?id=mu7Er7f9NQ), [ICML 2025](https://openreview.net/forum?id=zk5k2NQcEA) (top ~3% acceptance rate).
 - Top Reviewer Awards -- [NeurIPS 2023](https://neurips.cc/Conferences/2023/ProgramCommittee#top-reivewers), [NeurIPS 2025](https://neurips.cc/Conferences/2025/ProgramCommittee#top-reviewer).
 - Departmental Fellowship, Department of ECE, UC San Diego, 2015–2016.
 - Kwanjeong Scholarship, [Kwanjeong Educational Foundation](http://en.ikef.or.kr/).
