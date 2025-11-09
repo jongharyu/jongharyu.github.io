@@ -7,6 +7,8 @@ nav_order: 5
 nav: true
 ---
 
+[[CV] (last updated: 11/9/2025)](../assets/pdf/cv_jongha.pdf)
+
 ---
 ## employment
 
