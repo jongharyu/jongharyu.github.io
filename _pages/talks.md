@@ -18,7 +18,7 @@ nav: true
 
 - **Operator SVD with Neural Networks via Nested Low-Rank Approximation**
   - at the [MLTea Talk](https://calendar.csail.mit.edu/events/270823), MIT, Cambridge, MA, USA, Nov. 2023  
-  - at the [Information Theory and Applications (ITA) Workshop](https://ita.ucsd.edu), La Jolla, CA, USA, Feb. 2024 [[slides]](../assets/pdf/talks/neuralsvd_2024_ita.pdf)  
+  - at the [Information Theory and Applications (ITA) Workshop](https://ita.ucsd.edu), La Jolla, CA, USA, Feb. 2024 [[slides]](../assets/pdf/talks/ita2024-neuralsvd.pdf)  
   - at [Mitsubishi Electric Research Laboratories](https://www.merl.com/), Cambridge, MA, USA, Sep. 2024  
   - at [KAIST AI Graduate School](https://gsai.kaist.ac.kr/), Daejeon, South Korea, Sep. 2024  
   - at the [Center for AI and Natural Sciences](https://kias.re.kr/kias/activities/seminars/view.do?seqno=PGN1720240814-0002&menuNo=404003&schoolsCd=CP&centrspgmsCd=&sdate=2024-08-14&edate=&mjrcdnm=&searchCnd=1&searchWord=&pageIndex=2), KIAS, Seoul, South Korea, Oct. 2024  
@@ -32,15 +32,15 @@ nav: true
 
 - **From Wyner’s Common Information to Learning with Succinct Representation**
   - at the [Information Theory and Applications (ITA) Workshop](https://ita.ucsd.edu) (Graduation Day), La Jolla, CA, USA, May 2022  
-  - at the [Machine Intelligence and Data Science Laboratory](https://mindlab-snu.github.io/), Seoul National University, Seoul, South Korea, Jan. 2023 [[slides]](../assets/pdf/talks/wyner_2023.pdf)  
+  - at the [Machine Intelligence and Data Science Laboratory](https://mindlab-snu.github.io/), Seoul National University, Seoul, South Korea, Jan. 2023 [[slides]](../assets/pdf/talks/snu2023-wyner.pdf)  
   - at the [Inference and Information for Data Science Lab](https://iids.kaist.ac.kr/), KAIST, Daejeon, South Korea, Jan. 2023
 
 - **Nearest-Neighbor Density Functional Estimation from the Inverse Laplace Transform**
-  - at the [Center for AI and Natural Sciences](https://www.kias.re.kr/kias/activities/seminars/view.do?seqno=PGN1720220804-0001&menuNo=404003), KIAS, Seoul, South Korea, Aug. 2022 [[slides]](../assets/pdf/talks/knn_2022_kias.pdf)
+  - at the [Center for AI and Natural Sciences](https://www.kias.re.kr/kias/activities/seminars/view.do?seqno=PGN1720220804-0001&menuNo=404003), KIAS, Seoul, South Korea, Aug. 2022 [[slides]](../assets/pdf/talks/kias2022-knn.pdf)
 
 - **On Confidence Sequences from Universal Gambling**
-  - at [Prof. Aaditya Ramdas's Group Meeting](https://www.stat.cmu.edu/~aramdas), CMU, Pittsburgh, PA, USA, Oct. 2022 [[slides]](../assets/pdf/talks/gambling_2022_cmu.pdf)  
-  - at [Hanyang University](https://www.hanyang.ac.kr/web/eng), Seoul, South Korea, Jan. 2023 [[slides]](../assets/pdf/talks/gambling_2023_hanyang.pdf)
+  - at [Prof. Aaditya Ramdas's Group Meeting](https://www.stat.cmu.edu/~aramdas), CMU, Pittsburgh, PA, USA, Oct. 2022 [[slides]](../assets/pdf/talks/cmu2022-gambling.pdf.pdf)  
+  - at [Hanyang University](https://www.hanyang.ac.kr/web/eng), Seoul, South Korea, Jan. 2023 [[slides]](../assets/pdf/talks/hanyang2023-gambling.pdf)
 
 - **Improved Offline Contextual Bandits with Second-Order Bounds: Betting and Freezing**
   - at the [RL Theory Seminar](https://sites.google.com/view/rltheoryseminars/home), Dec. 2025 (coming soon!)
