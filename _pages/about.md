@@ -32,6 +32,10 @@ My research builds **spectral and information-theoretic foundations for machine 
 
 As an information theorist by training, I **distill complex ideas**, **unify principles across domains**, and **translate them into scalable algorithms** bridging theory and practice.
 
+<div style="color:#b30000; font-weight:bold; border-left:4px solid #b30000; padding-left:10px; margin-top:8px;">
+I am on the job market for the 2025–2026 academic cycle.
+</div>
+
 ---
 
 ## research focus
@@ -41,14 +45,14 @@ As an information theorist by training, I **distill complex ideas**, **unify pri
   - Applications: NeuralSVD for Koopman analysis [[NeurIPS'25a]](http://arxiv.org/abs/2507.07222)
 
 - **Principled frameworks for score-, energy-, and ratio-based learning**  
-  - New score-based method for generative modeling [[ICML'25a, *Spotlight*]](https://arxiv.org/abs/2502.09609)  
+  - New score-based method for generative modeling [[ICML'25a, <span style="color:#e74c3c; font-weight:300;">Spotlight</span>]](https://arxiv.org/abs/2502.09609)  
   - Unifying NCE-based lens for energy-based models [[ICML'25b]](http://arxiv.org/abs/2409.18209)  
   - Principled correction of InfoNCE for information estimation [[arXiv'25]](https://arxiv.org/abs/2510.25983)
 
 - **Information-theoretic techniques for uncertainty quantification**  
   - Time-uniform confidence sets for:
       - Bounded random variables [[TransIT'24]](http://arxiv.org/abs/2207.12382)
-      - Bounded random vectors [[ICML'24b, *Spotlight*]](http://arxiv.org/abs/2402.03683)
+      - Bounded random vectors [[ICML'24b, <span style="color:#e74c3c; font-weight:300;">Spotlight</span>]](http://arxiv.org/abs/2402.03683)
       - Nonnegative random variables [[COLT'25]](https://arxiv.org/abs/2502.10826) (applied to off-policy contextual bandits)
   - Pitfalls of evidential deep learning [[NeurIPS'24]](http://arxiv.org/abs/2402.06160)
 
