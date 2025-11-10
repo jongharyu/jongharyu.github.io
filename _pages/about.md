@@ -41,8 +41,9 @@ I am on the job market for the 2025–2026 academic cycle.
 ## research focus
 
 - **Neural spectral methods for scientific & ML problems**
-  - Methods: NeuralSVD [[ICML'24a]](http://arxiv.org/abs/2402.03655), NestedOMM [[NeurIPS'25b]](https://arxiv.org/abs/2510.21952)  
-  - Applications: NeuralSVD for Koopman analysis [[NeurIPS'25a]](http://arxiv.org/abs/2507.07222)
+  - For compact operators: NestedLoRA [[ICML'24a]](http://arxiv.org/abs/2402.03655) 
+  - For positive definite operators: NestedOMM [[NeurIPS'25b]](https://arxiv.org/abs/2510.21952)  
+  - Applications: NestedLoRA for Koopman analysis [[NeurIPS'25a]](http://arxiv.org/abs/2507.07222)
 
 - **Principled frameworks for score-, energy-, and ratio-based learning**  
   - New score-based method for generative modeling [[ICML'25a, <span style="color:#e74c3c; font-weight:300;">Spotlight</span>]](https://arxiv.org/abs/2502.09609)  
