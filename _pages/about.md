@@ -28,7 +28,7 @@ latest_posts:
 ---
 
 I am a Postdoctoral Associate at [MIT EECS](https://www.eecs.mit.edu/)/[RLE](https://www.rle.mit.edu), hosted by [Gregory W. Wornell](http://allegro.mit.edu/~gww/).  
-My research builds **spectral and information-theoretic foundations for machine learning**, developing scalable frameworks for **operator learning**, **probabilistic and generative modeling**, and **uncertainty quantification**.
+My research develops **spectral, statistical, and information-theoretic** methods for **operator learning**, **probabilistic modeling**, and **uncertainty quantification**.
 
 As an information theorist by training, I **distill complex ideas**, **unify principles across domains**, and **translate them into scalable algorithms** bridging theory and practice.
 
@@ -40,7 +40,7 @@ I am on the job market for the 2025–2026 academic cycle.
 
 ## research focus
 
-- **Neural spectral methods for science & machine learning**
+- **Neural spectral methods for scientific & ML problems**
   - Methods: NeuralSVD [[ICML'24a]](http://arxiv.org/abs/2402.03655), NestedOMM [[NeurIPS'25b]](https://arxiv.org/abs/2510.21952)  
   - Applications: NeuralSVD for Koopman analysis [[NeurIPS'25a]](http://arxiv.org/abs/2507.07222)
 
@@ -60,6 +60,6 @@ I am on the job market for the 2025–2026 academic cycle.
 
 ## background
 [//]: #
-Before MIT, I received my Ph.D. in [Electrical Engineering](https://ece.ucsd.edu/) from [UC San Diego](https://ucsd.edu/), advised by [Young-Han Kim](https://web.eng.ucsd.edu/~yhk/) and [Sanjoy Dasgupta](https://cseweb.ucsd.edu/~dasgupta/), supported by the [Kwanjeong Educational Foundation](http://www.ikef.or.kr/). I hold dual B.S. degrees in [Electrical and Computer Engineering](https://ece.snu.ac.kr/en) and [Mathematical Sciences](https://www.math.snu.ac.kr/), with a minor in [Physics](https://physics.snu.ac.kr/en), from [Seoul National University](https://en.snu.ac.kr), graduating with the highest distinction.
+Before MIT, I received my Ph.D. in Electrical Engineering from [UC San Diego](https://ucsd.edu/), advised by [Young-Han Kim](https://web.eng.ucsd.edu/~yhk/) and [Sanjoy Dasgupta](https://cseweb.ucsd.edu/~dasgupta/), supported by the [Kwanjeong Educational Foundation](http://www.ikef.or.kr/). I hold dual B.S. degrees in Electrical and Computer Engineering and Mathematical Sciences, with a minor in Physics, from [Seoul National University](https://en.snu.ac.kr), graduating with the highest distinction.
 
 ---
