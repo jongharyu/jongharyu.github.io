@@ -39,7 +39,7 @@ nav: true
   - at the [Center for AI and Natural Sciences](https://www.kias.re.kr/kias/activities/seminars/view.do?seqno=PGN1720220804-0001&menuNo=404003), KIAS, Seoul, South Korea, Aug. 2022 [[slides]](../assets/pdf/talks/kias2022-knn.pdf)
 
 - **On Confidence Sequences from Universal Gambling**
-  - at [Prof. Aaditya Ramdas's Group Meeting](https://www.stat.cmu.edu/~aramdas), CMU, Pittsburgh, PA, USA, Oct. 2022 [[slides]](../assets/pdf/talks/cmu2022-gambling.pdf.pdf)  
+  - at [Prof. Aaditya Ramdas's Group Meeting](https://www.stat.cmu.edu/~aramdas), CMU, Pittsburgh, PA, USA, Oct. 2022 [[slides]](../assets/pdf/talks/cmu2022-gambling.pdf)  
   - at [Hanyang University](https://www.hanyang.ac.kr/web/eng), Seoul, South Korea, Jan. 2023 [[slides]](../assets/pdf/talks/hanyang2023-gambling.pdf)
 
 - **Improved Offline Contextual Bandits with Second-Order Bounds: Betting and Freezing**
