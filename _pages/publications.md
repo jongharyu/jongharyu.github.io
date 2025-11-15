@@ -94,34 +94,33 @@ document.addEventListener("DOMContentLoaded", function () {
   var showOnlySelected = true;
   var currentGrouping  = "year";
 
-  function updateGroupVisibility(root) {
-  if (!root) return;
+  function updateGroupVisibility(root, headingSelector) {
+    if (!root) return;
 
-  var headings = root.querySelectorAll("h2, h3");
+    // Only look at the headings we care about in this view
+    var headings = root.querySelectorAll(headingSelector);
 
-  headings.forEach(function (h) {
+    headings.forEach(function (h) {
       var list = h.nextElementSibling;
       if (!list) return;
 
-      // Look at the display style we set in applyFilters,
-      // not at offsetParent (which is affected by parent display:none).
+      // Look at the display style we set in applyFilters
       var visibleEntries = Array.prototype.filter.call(
-      list.querySelectorAll(".pub-entry"),
-      function (e) {
+        list.querySelectorAll(".pub-entry"),
+        function (e) {
           return e.style.display !== "none";
-      }
+        }
       );
 
       if (visibleEntries.length === 0) {
-      h.style.display   = "none";
-      list.style.display = "none";
+        h.style.display   = "none";
+        list.style.display = "none";
       } else {
-      h.style.display   = "";
-      list.style.display = "";
+        h.style.display   = "";
+        list.style.display = "";
       }
-  });
+    });
   }
-
 
   function applyFilters() {
     var entries = getEntries();
@@ -154,9 +153,12 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
 
-    // NEW: clean up empty groups in both views
-    updateGroupVisibility(byYearDiv);
-    updateGroupVisibility(byTypeDiv);
+    // In the "by year" view, year headings are usually <h2>
+    updateGroupVisibility(byYearDiv, "h2");
+
+    // In the "by type" view, type headings are <h2> and year headings are <h3>,
+    // so we only collapse the <h3> + list pairs and leave the type headers alone.
+    updateGroupVisibility(byTypeDiv, "h3");
   }
 
   checkboxes.forEach(function (cb) {
