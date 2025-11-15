@@ -3,7 +3,7 @@ layout: page
 permalink: /talks/
 title: talks
 description:
-nav_order: 3
+nav_order: 6
 nav: true
 ---
 

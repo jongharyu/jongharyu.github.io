@@ -45,6 +45,13 @@ body.sticky-bottom-footer {
  ******************************************************************************/
 
 // TODO: redefine publications layout.
+.publications .links .award.btn {
+  background-color: #ffd700 !important;  /* gold */
+  color: #000 !important;
+  border: 2px solid #b8860b !important;  /* darker gold edge */
+  font-weight: 700;
+  box-shadow: 0 0 6px rgba(255, 215, 0, 0.6);
+}
 
 /*****************************************************************************
 * Projects

@@ -1,6 +1,8 @@
 ---
 ---
-<div class="row">
+<div class="row pub-entry"
+  data-keywords="{{ entry.keywords | downcase | strip }}"
+  data-selected="{% if entry.selected %}true{% else %}false{% endif %}">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
@@ -191,6 +193,11 @@
         <a class="award btn btn-sm z-depth-0" role="button">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
         </a>
+      {% endif %}
+      {% if entry.tldr %}
+        <div class="tldr">
+          <strong>TL;DR:</strong> {{ entry.tldr }}
+        </div>
       {% endif %}
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
