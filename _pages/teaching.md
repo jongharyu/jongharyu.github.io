@@ -35,15 +35,15 @@ I served as a teaching assistant for the following courses.
 - [ECE 154C Communication Systems](https://web.eng.ucsd.edu/~yhk/ece154c-spr17/) (Spring 2017)
   - Designed Julia-based programming assignments.
   - **Homeworks**:
-    - Topic 1. [Binary Huffman coding and Shannon--Fano coding](/assets/pdf/teaching/UCSD/ece154c-programming/hw1.pdf) [[sol]](/assets/pdf/teaching/UCSD/ece154c-programming/HW1-sol-Julia.html)
-      - [Basic functions](/assets/pdf/teaching/UCSD/ece154c-programming/Basic%20Functions.html);
-        [Binary Huffman coding](/assets/pdf/teaching/UCSD/ece154c-programming/Binary%20Huffman%20Coding.html);
-        [Shannon--Fano coding](/assets/pdf/teaching/UCSD/ece154c-programming/Shannon-Fano%20Coding.html)
-    - Topic 2. [Non-binary Huffman coding and Tunstall coding](/assets/pdf/teaching/UCSD/ece154c-programming/hw2.pdf) [[sol]](/assets/pdf/teaching/UCSD/ece154c-programming/HW2-sol-Julia.html)
-      - [Non-binary Huffman coding](/assets/pdf/teaching/UCSD/ece154c-programming/Non-binary%20Huffman%20Coding.html);
-        [Tunstall coding](/assets/pdf/teaching/UCSD/ece154c-programming/Tunstall%20Coding.html)
-        ([examples](/assets/pdf/teaching/UCSD/ece154c-programming/Tunstall%20Coding%20--%20Examples.html))
-    - Topic 3. [Tunstall (continued) and Lempel--Ziv encoding](/assets/pdf/teaching/UCSD/ece154c-programming/hw3.pdf) [[sol]](/assets/pdf/teaching/UCSD/ece154c-programming/HW3-sol-Julia.html)
-    - Topic 4. [Csiszár--Tusnády and Blahut--Arimoto algorithm](/assets/pdf/teaching/UCSD/ece154c-programming/hw4.pdf) [[sol]](/assets/pdf/teaching/UCSD/ece154c-programming/HW4-sol-Julia.html)
-    - Topic 5. [Basic channel coding algorithms](/assets/pdf/teaching/UCSD/ece154c-programming/hw5.pdf) [[sol]](/assets/pdf/teaching/UCSD/ece154c-programming/HW5-sol-Julia.html)
-    - Topic 6. [Viterbi algorithm](/assets/pdf/teaching/UCSD/ece154c-programming/hw6.pdf) [[sol]](/assets/pdf/teaching/UCSD/ece154c-programming/HW6-sol-Julia.html)
+    - Topic 1. [Binary Huffman coding and Shannon--Fano coding](/assets/pdf/teaching/UCSD/ece154c/hw1.pdf) [[sol]](/assets/pdf/teaching/UCSD/ece154c/HW1-sol-Julia.html)
+      - [Basic functions](/assets/pdf/teaching/UCSD/ece154c/Basic%20Functions.html);
+        [Binary Huffman coding](/assets/pdf/teaching/UCSD/ece154c/Binary%20Huffman%20Coding.html);
+        [Shannon--Fano coding](/assets/pdf/teaching/UCSD/ece154c/Shannon-Fano%20Coding.html)
+    - Topic 2. [Non-binary Huffman coding and Tunstall coding](/assets/pdf/teaching/UCSD/ece154c/hw2.pdf) [[sol]](/assets/pdf/teaching/UCSD/ece154c/HW2-sol-Julia.html)
+      - [Non-binary Huffman coding](/assets/pdf/teaching/UCSD/ece154c/Non-binary%20Huffman%20Coding.html);
+        [Tunstall coding](/assets/pdf/teaching/UCSD/ece154c/Tunstall%20Coding.html)
+        ([examples](/assets/pdf/teaching/UCSD/ece154c/Tunstall%20Coding%20--%20Examples.html))
+    - Topic 3. [Tunstall (continued) and Lempel--Ziv encoding](/assets/pdf/teaching/UCSD/ece154c/hw3.pdf) [[sol]](/assets/pdf/teaching/UCSD/ece154c/HW3-sol-Julia.html)
+    - Topic 4. [Csiszár--Tusnády and Blahut--Arimoto algorithm](/assets/pdf/teaching/UCSD/ece154c/hw4.pdf) [[sol]](/assets/pdf/teaching/UCSD/ece154c/HW4-sol-Julia.html)
+    - Topic 5. [Basic channel coding algorithms](/assets/pdf/teaching/UCSD/ece154c/hw5.pdf) [[sol]](/assets/pdf/teaching/UCSD/ece154c/HW5-sol-Julia.html)
+    - Topic 6. [Viterbi algorithm](/assets/pdf/teaching/UCSD/ece154c/hw6.pdf) [[sol]](/assets/pdf/teaching/UCSD/ece154c/HW6-sol-Julia.html)
