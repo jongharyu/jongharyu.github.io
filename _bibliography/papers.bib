@@ -3,11 +3,11 @@
 @STRING{ire_tit="{IRE} Trans. Inf. Theory" }
 @STRING{pcit="Probl. Control Inf. Theory" }
 @STRING{ppi="Probl. Inf. Transm." }
-@STRING{tit="{IEEE} Trans. Inf. Theory" }
+@STRING{tit="IEEE TransIT" }  % {IEEE} Trans. Inf. Theory
 @STRING{jsac="{IEEE} J. Sel. Areas Commun."}
-@STRING{isit="Proc. {IEEE} Int. Symp. Inf. Theory (ISIT)"}
+@STRING{isit="ISIT"}  % Proc. {IEEE} Int. Symp. Inf. Theory (ISIT)
 @STRING{isita="Proc. {IEEE} Int. Symp. Inf. Theory Appl. (ISITA)"}
-@STRING{itw="Proc. {IEEE} Inf. Theory Workshop (ITW)"}
+@STRING{itw="ITW"}  % Proc. {IEEE} Inf. Theory Workshop (ITW)
 @STRING{ita="Proc. {UCSD} Inf. Theory Appl. Workshop (ITA)"}
 @STRING{allerton_37="Proc. 37th Ann. Allerton Conf. Comm. Control Comput."}
 @STRING{allerton_41="Proc. 41st Ann. Allerton Conf. Comm. Control Comput."}
@@ -20,15 +20,15 @@
 @STRING{allerton_48="Proc. 48th Ann. Allerton Conf. Comm. Control Comput."}
 @STRING{allerton_49="Proc. 49th Ann. Allerton Conf. Comm. Control Comput."}
 @STRING{allerton_50="Proc. 50th Ann. Allerton Conf. Comm. Control Comput."}
-@STRING{allerton="Proc. Ann. Allerton Conf. Comm. Control Comput. (Allerton)"}
+@STRING{allerton="Allerton"}  % Proc. Ann. Allerton Conf. Comm. Control Comput.
 
 % MACHINE LEARNING
 %% CONFERENCE PROCEEDINGS
-@STRING{colt="Conf. Learn. Theory (COLT)"}
-@STRING{neurips="Adv. Neural Inf. Proc. Syst. (NeurIPS)"}
-@STRING{icml="Proc. Int. Conf. Mach. Learn. (ICML)"}
-@STRING{iclr="Int. Conf. Learn. Repr. (ICLR)"}
-@STRING{aistats="Proc. Int. Conf. Artif. Int. Statist. (AISTATS)"}
+@STRING{colt="COLT"}  % Conf. Learn. Theory (COLT)
+@STRING{neurips="NeurIPS"}  % Adv. Neural Inf. Proc. Syst. (NeurIPS)
+@STRING{icml="ICML"}  % Proc. Int. Conf. Mach. Learn. (ICML)
+@STRING{iclr="ICLR"}  % Int. Conf. Learn. Repr. (ICLR)
+@STRING{aistats="AISTATS"}  % Proc. Int. Conf. Artif. Int. Statist. (AISTATS)
 %% JOURNAL
 @STRING{jmlr="J. Mach. Learn. Res. (JMLR)"}
 @STRING{ml="Mach. Learn."}
@@ -136,7 +136,7 @@
 This paper revisits the gambling-based approach established in the recent literature from a natural \emph{two-horse race} perspective, and demonstrates new properties of the resulting algorithm induced by Cover (1991)'s universal portfolio.
 The main result of this paper is a new algorithm based on a mixture of lower bounds, which closely approximates the performance of Cover's universal portfolio with constant per-round time complexity.
 A higher-order generalization of a lower bound on a logarithmic function in (Fan et al., 2015), which is developed as a key technique for the proposed algorithm, may be of independent interest.},
-  tldr={We provide a simple two-horse-race perspective for constructing confidence sequences for bounded random processes, demonstrate new properties of the confidence sequence induced by Cover's universal portfolio, and its computationally efficient relaxations.},
+  tldr={We provide a simple two-horse-race perspective for constructing confidence sequences for bounded random processes, demonstrate new properties of the confidence sequence induced by universal portfolio, and propose its computationally efficient relaxations.},
   selected={true},
 }
 
@@ -157,7 +157,7 @@ A higher-order generalization of a lower bound on a logarithmic function in (Fan
   preview={icip2018.png},
   slides={talks/icip2018-slides.pdf},
   abstract={A simple and scalable denoising algorithm is proposed that can be applied to a wide range of source and noise models. At the core of the proposed CUDE algorithm is symbol-by-symbol universal denoising used by the celebrated DUDE algorithm, whereby the optimal estimate of the source from an unknown distribution is computed by inverting the empirical distribution of the noisy observation sequence by a deep neural network, which naturally and implicitly aggregates multi-pie contexts of similar characteristics and estimates the conditional distribution more accurately. The performance of CUDE is evaluated for grayscale images of varying bit depths, which improves upon DUDE and its recent neural network based extension, Neural DUDE.},
-  tldr={We extend a simple yet powerful deep-learning-extension of the information-theoretic universal denoising algorithm DUDE for structured, large-alphabet problems such as image denoising.},
+  tldr={We extend a simple deep-learning-extension of the information-theoretic universal denoising algorithm DUDE for structured, large-alphabet problems such as image denoising.},
 }
 
 tea@inproceedings{Bhatt--Huang--Kim--Ryu--Sen2018ITW,
@@ -214,7 +214,7 @@ tea@inproceedings{Bhatt--Huang--Kim--Ryu--Sen2018ITW,
   abstract={This paper proposes a special variant of Laplacian eigenmaps, whose solution is characterized by the underlying density and the eigenfunctions of the associated Hilbert--Schmidt operator of a similarity kernel function.
 In contrast to existing kernel-based spectral methods such as kernel principal component analysis and Laplacian eigenmaps, the new embedding algorithm only involves estimating density at each query point without any eigendecomposition of a matrix.
 A concrete example of dot-product kernels over hypersphere is provided to illustrate the applicability of the proposed framework.},
-  tldr={We propose an *eigendecomposition-free* kernel embedding method that only requires density estimation at query points.},
+  tldr={We propose an eigendecomposition-free kernel embedding method that only requires density estimation at query points.},
 }
 
 @inproceedings{Ryu--Bhatt--Kim2022,
@@ -266,7 +266,7 @@ By modifying the context-tree weighting technique of Willems, Shtarkov, and Tjal
   abstract={A new portfolio selection strategy that adapts to a continuous side-information sequence is presented, with a universal wealth guarantee against a class of state-constant rebalanced portfolios with respect to a state function that maps each side-information symbol to a finite set of states.
 In particular, given that a state function belongs to a collection of functions of finite Natarajan dimension, the proposed strategy is shown to achieve, asymptotically to first order in the exponent, the same wealth as the best state-constant rebalanced portfolio with respect to the best state function, chosen in hindsight from observed market.
 This result can be viewed as an extension of the seminal work of Cover and Ordentlich (1996) that assumes a single state function.},
-  tldr={We propose a universal portfolio strategy that adapts to a **continuous side-information sequence**.},
+  tldr={We propose a universal portfolio strategy that adapts to a continuous side-information sequence.},
 }
 
 @inproceedings{Yang--Sautiere--Ryu--Cohen2020,
@@ -436,7 +436,7 @@ We demonstrate the effectiveness of the proposed optimization framework for use 
   month=jul,
   booktitle=icml,
   abstract={We propose Score-of-Mixture Training (SMT), a novel framework for training one-step generative models by minimizing a class of divergences called the $\alpha$-skew Jensen-Shannon divergence. At its core, SMT estimates the score of mixture distributions between real and fake samples across multiple noise levels. Similar to consistency models, our approach supports both training from scratch (SMT) and distillation using a pretrained diffusion model, which we call Score-of-Mixture Distillation (SMD). It is simple to implement, requires minimal hyperparameter tuning, and ensures stable training. Experiments on CIFAR-10 and ImageNet 64x64 show that SMT/SMD are competitive with and can even outperform existing methods.},
-  tldr={We propose Score-of-Mixture Training (SMT), a method for training one-step generative models by minimizing the $\alpha$-skew Jensen--Shannon divergence using score-based gradient estimates.},
+  tldr={We propose a new method for training one-step generative models by minimizing the $\alpha$-skew Jensen--Shannon divergence using score-based gradient estimates.},
   primaryClass = {cs.AI},
   archivePrefix = {arXiv},
   eprint = {2502.09609},
@@ -460,7 +460,7 @@ We demonstrate the effectiveness of the proposed optimization framework for use 
   booktitle=colt,
   author+an={1=highlight},
   abstract={We consider off-policy selection and learning in contextual bandits, where the learner aims to select or train a reward-maximizing policy using data collected by a fixed behavior policy. Our contribution is two-fold. First, we propose a novel off-policy selection method that leverages a new betting-based confidence bound applied to an inverse propensity weight sequence. Our theoretical analysis reveals that this method achieves a significantly improved, variance-adaptive guarantee over prior work. Second, we propose a novel and generic condition on the optimization objective for off-policy learning that strikes a different balance between bias and variance. One special case, which we call freezing, tends to induce low variance, which is preferred in small-data regimes. Our analysis shows that it matches the best existing guarantees. In our empirical study, our selection method outperforms existing methods, and freezing exhibits improved performance in small-sample regimes.},
-  tldr={We introduce a betting-based confidence bound for off-policy selection, and a new objective condition (including freezing) that provides a favorable bias-variance tradeoff for off-policy learning.},
+  tldr={We introduce a betting-based confidence bound for off-policy selection, and a new off-policy learning technique that provides a favorable bias-variance tradeoff.},
   primaryClass={stat.ML},
   archivePrefix={arXiv},
   eprint={2502.10826},
@@ -509,7 +509,7 @@ We demonstrate the effectiveness of the proposed optimization framework for use 
   html={https://openreview.net/forum?id=AlRJVX5CRi},
   code={https://github.com/jongharyu/operator-omm},
   abstract={Spectral decomposition of linear operators plays a central role in many areas of machine learning and scientific computing. Recent work has explored training neural networks to approximate eigenfunctions of such operators, enabling scalable approaches to representation learning, dynamical systems, and partial differential equations (PDEs). In this paper, we revisit a classical optimization framework from the computational physics literature known as the *orbital minimization method* (OMM), originally proposed in the 1990s for solving eigenvalue problems in computational chemistry. We provide a simple linear algebraic proof of the consistency of the OMM objective, and reveal connections between this method and several ideas that have appeared independently across different domains. Our primary goal is to justify its broader applicability in modern learning pipelines. We adapt this framework to train neural networks to decompose positive semidefinite operators, and demonstrate its practical advantages across a range of benchmark tasks. Our results highlight how revisiting classical numerical methods through the lens of modern theory and computation can provide not only a principled approach for deploying neural networks in numerical analysis, but also effective and scalable tools for machine learning.},
-  tldr={We revisit OMM through a modern lens, proving its consistency and developing a scalable NestedOMM formulation that trains neural networks to decompose positive semidefinite operators.},
+  tldr={We revisit OMM through a modern lens, developing a scalable NestedOMM formulation that trains neural networks to decompose positive semidefinite operators.},
   selected={true},
 }
 
@@ -546,7 +546,7 @@ Roughly speaking, distributed $k$-NN rules with $M$ groups has a performance com
 The proposed model, dubbed as the variational Wyner model, is designed based on two classical problems in network information theory---distributed simulation and channel synthesis---in which Wyner's common information arises as the fundamental limit on the succinctness of the common representation.
 The model is trained by minimizing the symmetric Kullback--Leibler divergence between variational and model distributions with regularization terms for common information, reconstruction consistency, and latent space matching terms, which is carried out via an adversarial density ratio estimation technique.
 The utility of the proposed approach is demonstrated through experiments for joint and conditional generation with synthetic and real-world datasets, as well as a challenging zero-shot image retrieval task.},
-  tldr={We propose the **variational Wyner model**, a bimodal generative model that operationalizes Wyner's common information by learning a succinct shared representation for joint and conditional generation.},
+  tldr={We propose a bimodal generative model that operationalizes Wyner's common information by learning a succinct shared representation for joint and conditional generation.},
   arxiv={1905.10945},
   preview={wyner.png},
   slides={talk/wyner2023.pdf},
@@ -577,7 +577,7 @@ The utility of the proposed approach is demonstrated through experiments for joi
   author+an={1=highlight},
   arXiv={2510.25983},
   abstract={The InfoNCE objective, originally introduced for contrastive representation learning, has become a popular choice for mutual information (MI) estimation, despite its indirect connection to MI. In this paper, we demonstrate why InfoNCE should not be regarded as a valid MI estimator, and we introduce a simple modification, which we refer to as InfoNCE-anchor, for accurate MI estimation. Our modification introduces an auxiliary anchor class, enabling consistent density ratio estimation and yielding a plug-in MI estimator with significantly reduced bias. Beyond this, we generalize our framework using proper scoring rules, which recover InfoNCE-anchor as a special case when the log score is employed. This formulation unifies a broad spectrum of contrastive objectives, including NCE, InfoNCE, and f-divergence variants, under a single principled framework. Empirically, we find that InfoNCE-anchor with the log score achieves the most accurate MI estimates; however, in self-supervised representation learning experiments, we find that the anchor does not improve the downstream task performance. These findings corroborate that contrastive representation learning benefits not from accurate MI estimation per se, but from the learning of structured density ratios.},
-  tldr={We show that InfoNCE is an inconsistent MI estimator and introduce *InfoNCE-anchor*, a minimal modification that enables consistent density-ratio estimation and accurate MI estimation.},
+  tldr={We show that InfoNCE is an inconsistent MI estimator, and introduce a minimal modification that enables consistent density-ratio estimation and accurate MI estimation.},
   preview={infonce.png},
   selected={true},
 }
