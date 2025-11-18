@@ -11,7 +11,7 @@ nav_order: 5
 As a postdoctoral instructor, I designed and taught advanced modules for the following course.
 - [6.7800 Inference and Information](https://web.mit.edu/6.7800/www/info24.pdf) (Spring 2024, Spring 2025)
   - Designed and delivered a sequence of advanced bonus lectures.
-  - Lecture notes (2025):
+  - **Lecture notes** (2025):
     - Topic 1. [Minimax optimal bit prediction](/assets/pdf/teaching/MIT/6.7800/6_7800_s01_minimax_optimal_bit_prediction.pdf)
     - Topic 2. [Group testing and Fano's inequality](/assets/pdf/teaching/MIT/6.7800/6_7800_s02_fano_inequality.pdf)
     - Topic 3. [Universal large-deviation bounds](/assets/pdf/teaching/MIT/6.7800/6_7800_s03_large_deviation.pdf)
