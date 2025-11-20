@@ -37,24 +37,24 @@ I am on the academic job market for the 2025–2026 academic cycle.
 
 ---
 
-## research focus
+## [research focus](/research)
 
-- **Neural spectral methods for scientific ML**
+- **[neural spectral methods for operator learning](/research/neural-spectral-methods/)**
   - NestedLoRA for compact operators [[ICML'24a]](http://arxiv.org/abs/2402.03655) 
   - NestedOMM for positive definite operators [[NeurIPS'25b]](https://arxiv.org/abs/2510.21952)  
-  - Application: NestedLoRA + Koopman for dynamical systems [[NeurIPS'25a]](http://arxiv.org/abs/2507.07222)
+  - application: NestedLoRA + Koopman for dynamical systems [[NeurIPS'25a]](http://arxiv.org/abs/2507.07222)
 
-- **Principled methods for score-, energy-, and ratio-based learning**  
+- **[principled methods for probabilistic and generative modeling](/research/probabilistic-modeling/)**  
   - Score-of-Mixture generative modeling framework [[ICML'25a, <span style="color:#e74c3c; font-weight:300;">Spotlight</span>]](https://arxiv.org/abs/2502.09609)  
-  - Unified NCE-based lens for energy-based models [[ICML'25b]](http://arxiv.org/abs/2409.18209)  
-  - Simply-corrected InfoNCE for information estimation [[arXiv'25]](https://arxiv.org/abs/2510.25983)
+  - unified NCE-based lens for energy-based models [[ICML'25b]](http://arxiv.org/abs/2409.18209)  
+  - simply-corrected InfoNCE for information estimation [[arXiv'25]](https://arxiv.org/abs/2510.25983)
 
-- **Reliable techniques for uncertainty quantification**  
-  - Time-uniform confidence sets for:
+- **[reliable techniques for uncertainty quantification](/research/uncertainty-quantification/)**  
+  - time-uniform confidence sets for:
       - bounded random variables [[TransIT'24]](http://arxiv.org/abs/2207.12382)
       - bounded random vectors [[ICML'24b, <span style="color:#e74c3c; font-weight:300;">Spotlight</span>]](http://arxiv.org/abs/2402.03683)
       - nonnegative random variables [[COLT'25]](https://arxiv.org/abs/2502.10826) (applied to off-policy contextual bandits)
-  - Pitfalls of evidential deep learning [[NeurIPS'24]](http://arxiv.org/abs/2402.06160)
+  - pitfalls of evidential deep learning [[NeurIPS'24]](http://arxiv.org/abs/2402.06160)
 
 ---
 
@@ -62,4 +62,4 @@ I am on the academic job market for the 2025–2026 academic cycle.
 [//]: #
 Before MIT, I received my Ph.D. in Electrical Engineering from [UC San Diego](https://ucsd.edu/), advised by [Young-Han Kim](https://web.eng.ucsd.edu/~yhk/) and [Sanjoy Dasgupta](https://cseweb.ucsd.edu/~dasgupta/), supported by the [Kwanjeong Educational Foundation](http://www.ikef.or.kr/). I hold dual B.S. degrees in Electrical and Computer Engineering and Mathematical Sciences, with a minor in Physics, from [Seoul National University](https://en.snu.ac.kr), graduating with the highest distinction.
 
-[[CV] (last updated: 11/9/2025)](../assets/pdf/cv_jongha.pdf)
+[[CV] (last updated: 11/16/2025)](../assets/pdf/cv_jongha.pdf)
