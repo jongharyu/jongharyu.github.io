@@ -28,8 +28,7 @@ latest_posts:
 ---
 
 I am a Postdoctoral Associate at [MIT EECS](https://www.eecs.mit.edu/)/[RLE](https://www.rle.mit.edu), hosted by [Gregory W. Wornell](http://allegro.mit.edu/~gww/).  
-My research develops the **mathematical foundations of scientific machine learning**, aiming for scalable and reliable methods for scientific inference and modeling.  
-A central theme in my work is **characterizing and leveraging spectral and information-theoretic structure** in scientific machine learning problems.
+My research develops the **mathematical and statistical foundations of scientific machine learning**, aiming for scalable and reliable methods for scientific inference and modeling.  
 
 <div style="color:#b30000; font-weight:bold; border-left:4px solid #b30000; padding-left:10px; margin-top:8px;">
 I am on the academic job market for the 2025–2026 academic cycle.
