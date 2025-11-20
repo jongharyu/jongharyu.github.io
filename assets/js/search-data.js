@@ -9,12 +9,26 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-news",
+  },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "nav-news",
           title: "news",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/news/";
+          },
+        },{id: "nav-research",
+          title: "research",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
           },
         },{id: "nav-publications",
           title: "publications",
@@ -85,7 +99,22 @@ ninja.data = [{
           section: "News",},{id: "news-two-papers-1-2-on-parametric-spectral-decomposition-got-accepted-at-neurips-2025-update-on-10-17-2025-also-recognized-as-a-top-reviewer",
           title: 'Two papers [1, 2] on parametric spectral decomposition got accepted at NeurIPS 2025!...',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-neural-spectral-methods",
+          title: 'neural spectral methods',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/research/neural-spectral-methods/";
+            },},{id: "projects-probabilistic-and-generative-modeling",
+          title: 'probabilistic and generative modeling',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/research/probabilistic-modeling/";
+            },},{id: "projects-uncertainty-quantification",
+          title: 'uncertainty quantification',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/research/uncertainty-quantification/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
