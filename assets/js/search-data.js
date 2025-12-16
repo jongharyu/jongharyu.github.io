@@ -108,6 +108,13 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/research/uncertainty-quantification/";
             },},{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/pdf/cv_jongha.pdf", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
