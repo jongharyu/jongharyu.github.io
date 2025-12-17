@@ -30,7 +30,8 @@ nav: true
 - Jan 2023 · [Hanyang University](https://www.hanyang.ac.kr/web/eng), Seoul, South Korea [**[slides]**](../assets/pdf/talks/hanyang2023-gambling.pdf)
 
 #### Improved Offline Contextual Bandits with Second-Order Bounds: Betting and Freezing
-- Dec 2025 · [RL Theory Seminar](https://sites.google.com/view/rltheoryseminars/home) (coming soon!)
+- Dec 2025 · [RL Theory Seminar](https://sites.google.com/view/rltheoryseminars/home) 
+[**[video]**](https://www.youtube.com/watch?v=Stm_bAyAaQ4), [**[slides]**](../assets/pdf/talks/rltheory2025-offpolicy.pdf)
 
 ---
 
