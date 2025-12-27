@@ -18,7 +18,7 @@ My work approaches UQ along two complementary fronts:
 
 ## information-theoretic anytime-valid inference
 
-Many scientific and engineering tasks operate in sequential or adaptive settings where fixed-time uncertainty bounds fail. Using ideas from universal coding and gambling, I develop **confidence sequences** (CSs) that provide time-uniform uncertainty guarantees. These results strengthen classical concentration bounds and support sequential decisiom making problems such as A/B testing and contextual bandits.
+Many scientific and engineering tasks operate in sequential or adaptive settings where fixed-time uncertainty bounds fail. Using ideas from universal coding and gambling, I develop **confidence sequences** (CSs) that provide time-uniform uncertainty guarantees. These results strengthen classical concentration bounds and support sequential decision making problems such as A/B testing and contextual bandits.
 
 This line of work establishes the power of information-theoretic constructions of confidence sequences, including:
 - confidence sequences for bounded variables {% cite Ryu--Bhatt2024 %},  
