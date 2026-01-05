@@ -60,4 +60,4 @@ I am on the academic job market for the 2025–2026 academic cycle.
 ## background
 Before MIT, I received my Ph.D. in Electrical Engineering from [UC San Diego](https://ucsd.edu/), advised by [Young-Han Kim](https://web.eng.ucsd.edu/~yhk/) and [Sanjoy Dasgupta](https://cseweb.ucsd.edu/~dasgupta/), supported by the [Kwanjeong Educational Foundation](http://www.ikef.or.kr/). I hold dual B.S. degrees in Electrical and Computer Engineering and Mathematical Sciences, with a minor in Physics, from [Seoul National University](https://en.snu.ac.kr), graduating with the highest distinction.
 
-[[CV] (last updated: 11/16/2025)](../assets/pdf/cv_jongha.pdf)
+[[CV] (last updated: 11/22/2025)](../assets/pdf/cv_jongha.pdf)
