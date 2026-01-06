@@ -31,7 +31,7 @@ I am a Postdoctoral Associate at [MIT EECS](https://www.eecs.mit.edu/)/[RLE](htt
 My research develops the **mathematical and statistical foundations of scientific machine learning**, with the aim of enabling scalable and reliable methods for scientific inference and modeling. I translate these foundations into tools for scientific discovery and large-scale engineering systems by designing algorithms for operator learning, generative modeling, and uncertainty quantification that scale to high-dimensional scientific problems.
 
 <div style="color:#b30000; font-weight:bold; border-left:4px solid #b30000; padding-left:10px; margin-top:8px;">
-I am on the academic job market for the 2025–2026 academic cycle.
+I am on the academic job market for the 2025–2026 cycle.
 </div>
 
 ---
