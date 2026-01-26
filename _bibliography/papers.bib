@@ -510,11 +510,30 @@ We demonstrate the effectiveness of the proposed optimization framework for use 
   pdf={neurips2025b.pdf},
   preview={neurips2025b.png},
   html={https://openreview.net/forum?id=AlRJVX5CRi},
-  code={https://github.com/jongharyu/operator-omm},
+  code={https://github.com/jongharyu/neural-svd},
   abstract={Spectral decomposition of linear operators plays a central role in many areas of machine learning and scientific computing. Recent work has explored training neural networks to approximate eigenfunctions of such operators, enabling scalable approaches to representation learning, dynamical systems, and partial differential equations (PDEs). In this paper, we revisit a classical optimization framework from the computational physics literature known as the *orbital minimization method* (OMM), originally proposed in the 1990s for solving eigenvalue problems in computational chemistry. We provide a simple linear algebraic proof of the consistency of the OMM objective, and reveal connections between this method and several ideas that have appeared independently across different domains. Our primary goal is to justify its broader applicability in modern learning pipelines. We adapt this framework to train neural networks to decompose positive semidefinite operators, and demonstrate its practical advantages across a range of benchmark tasks. Our results highlight how revisiting classical numerical methods through the lens of modern theory and computation can provide not only a principled approach for deploying neural networks in numerical analysis, but also effective and scalable tools for machine learning.},
   tldr={We revisit OMM through a modern lens, developing a scalable NestedOMM formulation that trains neural networks to decompose positive semidefinite operators.},
   selected={true},
 }
+
+@inproceedings{Ryu--Yeddanapudi--Xu--Wornell2026,
+  keywords={probabilistic-modeling,information-theory,information-measures,divergence-matching},
+  abbr={arXiv},
+  title={Contrastive Predictive Coding Done Right for Mutual Information Estimation},
+  author={Ryu, J. Jon and Yeddanapudi, Pavan and Xu, Xiangxiang and Wornell, Gregory W.},
+  year={2026},
+  month=apr,
+  booktitle=iclr,
+  note={To appear.},
+  author+an={1=highlight},
+  arXiv={2510.25983},
+  abstract={The InfoNCE objective, originally introduced for contrastive representation learning, has become a popular choice for mutual information (MI) estimation, despite its indirect connection to MI. In this paper, we demonstrate why InfoNCE should not be regarded as a valid MI estimator, and we introduce a simple modification, which we refer to as InfoNCE-anchor, for accurate MI estimation. Our modification introduces an auxiliary anchor class, enabling consistent density ratio estimation and yielding a plug-in MI estimator with significantly reduced bias. Beyond this, we generalize our framework using proper scoring rules, which recover InfoNCE-anchor as a special case when the log score is employed. This formulation unifies a broad spectrum of contrastive objectives, including NCE, InfoNCE, and f-divergence variants, under a single principled framework. Empirically, we find that InfoNCE-anchor with the log score achieves the most accurate MI estimates; however, in self-supervised representation learning experiments, we find that the anchor does not improve the downstream task performance. These findings corroborate that contrastive representation learning benefits not from accurate MI estimation per se, but from the learning of structured density ratios.},
+  tldr={We show that InfoNCE is an inconsistent MI estimator, and introduce a minimal modification that enables consistent density-ratio estimation and accurate MI estimation.},
+  preview={infonce.png},
+  html={https://openreview.net/forum?id=JodkBXWgbA},
+  selected={true},
+}
+
 
 % preprints
 @misc{Ryu--Kim2021,
@@ -568,21 +587,6 @@ The utility of the proposed approach is demonstrated through experiments for joi
   arxiv={2506.01523},
   abstract={Alignment via reinforcement learning from human feedback (RLHF) has become the dominant paradigm for controlling the quality of outputs from large language models (LLMs). However, when viewed as ‘loss + regularization,’ the standard RLHF objective lacks theoretical justification and incentivizes degenerate, deterministic solutions, an issue that variants such as Direct Policy Optimization (DPO) also inherit. In this paper, we rethink alignment by framing it as distribution learning from pairwise preference feedback by explicitly modeling how information about the target language model bleeds through the preference data. This explicit modeling leads us to propose three principled learning objectives: preference maximum likelihood estimation, preference distillation, and reverse KL minimization. We theoretically show that all three approaches enjoy strong non-asymptotic $O(1/n)$ convergence to the target language model, naturally avoiding degeneracy and reward overfitting. Finally, we empirically demonstrate that our distribution learning framework, especially preference distillation, consistently outperforms or matches the performances of RLHF and DPO across various tasks and models.},
   tldr={We recast alignment as distribution learning from preferences, deriving three objectives with $O(1/n)$ convergence to the target LM and without the degeneracy issues of RLHF/DPO.},
-}
-
-@misc{Ryu--Yeddanapudi--Xu--Wornell2025,
-  keywords={probabilistic-modeling,information-theory,information-measures,divergence-matching},
-  abbr={arXiv},
-  title={Contrastive Predictive Coding Done Right for Mutual Information Estimation},
-  author={Ryu, J. Jon and Yeddanapudi, Pavan and Xu, Xiangxiang and Wornell, Gregory W.},
-  year={2025},
-  month=oct,
-  author+an={1=highlight},
-  arXiv={2510.25983},
-  abstract={The InfoNCE objective, originally introduced for contrastive representation learning, has become a popular choice for mutual information (MI) estimation, despite its indirect connection to MI. In this paper, we demonstrate why InfoNCE should not be regarded as a valid MI estimator, and we introduce a simple modification, which we refer to as InfoNCE-anchor, for accurate MI estimation. Our modification introduces an auxiliary anchor class, enabling consistent density ratio estimation and yielding a plug-in MI estimator with significantly reduced bias. Beyond this, we generalize our framework using proper scoring rules, which recover InfoNCE-anchor as a special case when the log score is employed. This formulation unifies a broad spectrum of contrastive objectives, including NCE, InfoNCE, and f-divergence variants, under a single principled framework. Empirically, we find that InfoNCE-anchor with the log score achieves the most accurate MI estimates; however, in self-supervised representation learning experiments, we find that the anchor does not improve the downstream task performance. These findings corroborate that contrastive representation learning benefits not from accurate MI estimation per se, but from the learning of structured density ratios.},
-  tldr={We show that InfoNCE is an inconsistent MI estimator, and introduce a minimal modification that enables consistent density-ratio estimation and accurate MI estimation.},
-  preview={infonce.png},
-  selected={true},
 }
 
 # working papers
