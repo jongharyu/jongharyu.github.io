@@ -39,9 +39,9 @@ Energy-based models are expressive and broadly used in generative modeling, caus
   %}
 </div>
 
-#### (2) consistent neural density-ratio estimation {% cite Ryu--Yeddanapudi--Xu--Wornell2025 %}
+#### (2) consistent neural density-ratio estimation {% cite Ryu--Yeddanapudi--Xu--Wornell2026 %}
 InfoNCE is widely used for representation learning, yet its relationship to mutual information has remained unclear.  
-In {% cite Ryu--Yeddanapudi--Xu--Wornell2025 %}, we demystify the InfoNCE objective by providing the sharp information-theoretic characterization of the objective, and introduce a simple correction that resolves this issue, yielding consistent density-ratio and mutual-information estimation. This provides a principled basis for ratio-based learning across various downstream tasks in machine learning.
+In {% cite Ryu--Yeddanapudi--Xu--Wornell2026 %}, we demystify the InfoNCE objective by providing the sharp information-theoretic characterization of the objective, and introduce a simple correction that resolves this issue, yielding consistent density-ratio and mutual-information estimation. This provides a principled basis for ratio-based learning across various downstream tasks in machine learning.
 
 <div class="text-center">
   {% include figure.liquid

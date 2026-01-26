@@ -46,7 +46,7 @@ I am on the academic job market for the 2025–2026 cycle.
 - **[principled methods for probabilistic and generative modeling](/research/probabilistic-modeling/)**  
   - Score-of-Mixture generative modeling framework [[ICML'25a, <span style="color:#e74c3c; font-weight:300;">Spotlight</span>]](https://arxiv.org/abs/2502.09609)  
   - unified NCE-based lens for energy-based models [[ICML'25b]](http://arxiv.org/abs/2409.18209)  
-  - corrected InfoNCE for density-ratio estimation [[arXiv'25]](https://arxiv.org/abs/2510.25983)
+  - corrected InfoNCE for density-ratio estimation [[ICLR'26]](https://arxiv.org/abs/2510.25983)
 
 - **[reliable techniques for uncertainty quantification](/research/uncertainty-quantification/)**  
   - time-uniform confidence sets for:
