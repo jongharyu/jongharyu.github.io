@@ -27,12 +27,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Postdoctoral Associate at [MIT EECS](https://www.eecs.mit.edu/)/[RLE](https://www.rle.mit.edu), hosted by [Gregory W. Wornell](http://allegro.mit.edu/~gww/).  
-My research develops the **mathematical and statistical foundations of scientific machine learning**, with the aim of enabling scalable and reliable methods for scientific inference and modeling. I translate these foundations into tools for scientific discovery and large-scale engineering systems by designing algorithms for operator learning, generative modeling, and uncertainty quantification that scale to high-dimensional scientific problems.
+I am a Postdoctoral Associate at [MIT EECS](https://www.eecs.mit.edu/)/[RLE](https://www.rle.mit.edu), hosted by [Gregory W. Wornell](http://allegro.mit.edu/~gww/). I will join the [Department of Computer Science and Engineering](https://www.eecs.psu.edu/) at Penn State as a tenure-track Assistant Professor, with a joint appointment in [ICDS](https://icds.psu.edu/), in Fall 2026.
 
-<div style="color:#b30000; font-weight:bold; border-left:4px solid #b30000; padding-left:10px; margin-top:8px;">
-I am on the academic job market for the 2025–2026 cycle.
-</div>
+My research develops the *mathematical and statistical foundations of scientific machine learning*, with the goal of *enabling scalable and reliable methods for scientific inference and modeling*. I design algorithms for operator learning, generative modeling, and uncertainty quantification that scale to high-dimensional problems in science and engineering.
 
 ---
 
