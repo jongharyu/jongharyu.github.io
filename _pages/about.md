@@ -29,7 +29,7 @@ latest_posts:
 
 <p class="about-announcement">Starting in Fall 2026, <b>I will join Penn State as a tenure-track Assistant Professor in the <a href="https://www.eecs.psu.edu/">Department of Computer Science and Engineering</a></b>, with a joint appointment in the <a href="https://icds.psu.edu/">Institute for Computational and Data Sciences</a>, while holding the Wormley Family Early Career Professorship.</p>
 
-I am a Postdoctoral Associate at [MIT EECS](https://www.eecs.mit.edu/) and [RLE](https://www.rle.mit.edu), hosted by [Gregory W. Wornell](http://allegro.mit.edu/~gww/).
+I am a Postdoctoral Associate at [MIT EECS](https://www.eecs.mit.edu/) and [RLE](https://www.rle.mit.edu), hosted by [Gregory W. Wornell](http://allegro.mit.edu/~gww/). My first name is pronounced **Jong-ha** (Korean: 종하).
 
 My research develops the <span class="about-emphasis-1">mathematical and statistical foundations of scientific machine learning</span>, with the goal of <span class="about-emphasis-2">enabling scalable and reliable methods for scientific inference and modeling</span>. I design algorithms for operator learning, generative modeling, and uncertainty quantification that scale to high-dimensional problems in science and engineering.
 
