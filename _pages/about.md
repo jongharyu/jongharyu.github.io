@@ -9,9 +9,9 @@ profile:
   image: headshot.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Room 36-677</p>
-    <p>50 Vassar St</p>
-    <p>Cambridge, MA 02139</p>
+    <p>Room W324</p>
+    <p>Westgate Building</p>
+    <p>University Park, PA  16802 </p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -27,11 +27,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<p class="about-announcement">Starting in Fall 2026, <b>I will join Penn State as a tenure-track Assistant Professor in the <a href="https://www.eecs.psu.edu/">Department of Computer Science and Engineering</a></b>, with a joint appointment in the <a href="https://icds.psu.edu/">Institute for Computational and Data Sciences</a>, while holding the Wormley Family Early Career Professorship.</p>
+I am a tenure-track Assistant Professor in the <a href="https://www.eecs.psu.edu/">Department of Computer Science and Engineering</a> at <a href="https://www.psu.edu/">Penn State</a>, with a joint appointment in the <a href="https://icds.psu.edu/">Institute for Computational and Data Sciences</a>. I also hold the Wormley Family Early Career Professorship.
 
-I am a Postdoctoral Associate at [MIT EECS](https://www.eecs.mit.edu/) and [RLE](https://www.rle.mit.edu), hosted by [Gregory W. Wornell](http://allegro.mit.edu/~gww/). My first name is pronounced **Jong-ha** (Korean: 종하).
+My first name is pronounced **Jong-ha** (Korean: 종하), but I usually go by **Jon**.
 
-My research develops the <span class="about-emphasis-1">mathematical and statistical foundations of scientific machine learning</span>, with the goal of <span class="about-emphasis-2">enabling scalable and reliable methods for scientific inference and modeling</span>. I design algorithms for operator learning, generative modeling, and uncertainty quantification that scale to high-dimensional problems in science and engineering.
+I develop the <span class="about-emphasis-1">mathematical and statistical foundations of scientific machine learning</span>, with the goal of <span class="about-emphasis-2">enabling scalable and reliable methods for scientific inference and modeling</span>. 
+
+**research focus**: spectral learning; generative modeling; uncertainty quantification; applications to AI for science.
 
 ---
 
@@ -56,7 +58,7 @@ My research develops the <span class="about-emphasis-1">mathematical and statist
 
 ---
 
-## background
-Before MIT, I received my Ph.D. in Electrical Engineering from [UC San Diego](https://ucsd.edu/), advised by [Young-Han Kim](https://web.eng.ucsd.edu/~yhk/) and [Sanjoy Dasgupta](https://cseweb.ucsd.edu/~dasgupta/), supported by the [Kwanjeong Educational Foundation](http://www.ikef.or.kr/). I hold dual B.S. degrees in Electrical and Computer Engineering and Mathematical Sciences, with a minor in Physics, from [Seoul National University](https://en.snu.ac.kr), graduating with the highest distinction.
+## bio
+Prior to Penn State, I was a postdoc at [MIT EECS](https://www.eecs.mit.edu/) and [RLE](https://www.rle.mit.edu), hosted by [Gregory W. Wornell](http://allegro.mit.edu/~gww/). Before MIT, I received my Ph.D. in Electrical Engineering from [UC San Diego](https://ucsd.edu/), advised by [Young-Han Kim](https://web.eng.ucsd.edu/~yhk/) and [Sanjoy Dasgupta](https://cseweb.ucsd.edu/~dasgupta/), generously supported by the [Kwanjeong Educational Foundation](http://www.ikef.or.kr/). I hold dual B.S. degrees in Electrical and Computer Engineering and Mathematical Sciences, with a minor in Physics, from [Seoul National University](https://en.snu.ac.kr), graduating with the highest distinction.
 
-[[CV] (last updated: 11/22/2025)](../assets/pdf/cv_jongha.pdf)
+[[CV] (last updated: 08/17/2026)](../assets/pdf/cv_jongha.pdf)
