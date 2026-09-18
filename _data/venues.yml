@@ -20,12 +20,17 @@
   url: https://iclr.cc/
   color: "#00369f"
 
+
 "AISTATS":
   url: https://aistats.org/
   color: "#00369f"
 
 "COLT":
   url: https://learningtheory.org/
+  color: "#00369f"
+
+"COLM":
+  url: https://colm.cc/
   color: "#00369f"
 
 "TransIT":
