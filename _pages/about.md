@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
@@ -18,7 +18,7 @@ social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
@@ -27,38 +27,30 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a tenure-track Assistant Professor in the <a href="https://www.eecs.psu.edu/">Department of Computer Science and Engineering</a> at <a href="https://www.psu.edu/">Penn State</a>, with a joint appointment in the <a href="https://icds.psu.edu/">Institute for Computational and Data Sciences</a>. I also hold the Wormley Family Early Career Professorship.
+I am a Wormley Family Early Career Assistant Professor in the [Department of Computer Science and Engineering](https://www.eecs.psu.edu/) and a faculty co-hire in the [Institute for Computational and Data Sciences](https://icds.psu.edu/) at [Penn State](https://www.psu.edu/). 
+
+I develop the <span class="about-emphasis-1">mathematical and statistical foundations of scientific machine learning</span>. My work connects spectral learning, generative modeling, and uncertainty quantification to make scientific inference more scalable and reliable.
 
 My first name is pronounced **Jong-ha** (Korean: 종하), but I usually go by **Jon**.
 
-I develop the <span class="about-emphasis-1">mathematical and statistical foundations of scientific machine learning</span>, with the goal of <span class="about-emphasis-2">enabling scalable and reliable methods for scientific inference and modeling</span>. 
-
-**research focus**: spectral learning; generative modeling; uncertainty quantification; applications to AI for science.
+[CV (September 2026)]({{ site.data.socials.cv_pdf | relative_url }}) 
 
 ---
 
-## [research focus](/research)
+## research interests
 
-- **[neural spectral methods for scalable operator learning](/research/neural-spectral-methods/)**
-  - NestedLoRA for compact operators [[ICML'24a]](http://arxiv.org/abs/2402.03655) 
-  - NestedOMM for positive definite operators [[NeurIPS'25b]](https://arxiv.org/abs/2510.21952)  
-  - Koopman analysis via NestedLoRA for dynamical systems [[NeurIPS'25a]](http://arxiv.org/abs/2507.07222)
+My recent research centers on by three questions:
 
-- **[principled methods for probabilistic and generative modeling](/research/probabilistic-modeling/)**  
-  - Score-of-Mixture generative modeling framework [[ICML'25a, <span style="color:#e74c3c; font-weight:300;">Spotlight</span>]](https://arxiv.org/abs/2502.09609)  
-  - unified NCE-based lens for energy-based models [[ICML'25b]](http://arxiv.org/abs/2409.18209)  
-  - corrected InfoNCE for density-ratio estimation [[ICLR'26]](https://arxiv.org/abs/2510.25983)
+- **[Operator learning](/research/neural-spectral-methods/):** How can we learn structured operator representations that preserve the essential dynamics and physics of complex systems?
 
-- **[reliable techniques for uncertainty quantification](/research/uncertainty-quantification/)**  
-  - time-uniform confidence sets for:
-      - bounded random variables [[TransIT'24]](http://arxiv.org/abs/2207.12382)
-      - bounded random vectors [[ICML'24b, <span style="color:#e74c3c; font-weight:300;">Spotlight</span>]](http://arxiv.org/abs/2402.03683)
-      - nonnegative random variables [[COLT'25]](https://arxiv.org/abs/2502.10826) (applied to off-policy contextual bandits)
-  - diagnosis of evidential deep learning [[NeurIPS'24]](http://arxiv.org/abs/2402.06160)
+- **[Probabilistic and generative modeling](/research/probabilistic-modeling/):** How can we learn and generate from complex distributions when their densities are unknown or intractable?
+
+- **[Uncertainty quantification](/research/uncertainty-quantification/):** How can we equip predictive models with statistically meaningful uncertainty estimates that support reliable decisions in adaptive settings?
+
+For more details, check out my [research program](/research/) and [publication list](/publications/).
 
 ---
 
 ## bio
-Prior to Penn State, I was a postdoc at [MIT EECS](https://www.eecs.mit.edu/) and [RLE](https://www.rle.mit.edu), hosted by [Gregory W. Wornell](http://allegro.mit.edu/~gww/). Before MIT, I received my Ph.D. in Electrical Engineering from [UC San Diego](https://ucsd.edu/), advised by [Young-Han Kim](https://web.eng.ucsd.edu/~yhk/) and [Sanjoy Dasgupta](https://cseweb.ucsd.edu/~dasgupta/), generously supported by the [Kwanjeong Educational Foundation](http://www.ikef.or.kr/). I hold dual B.S. degrees in Electrical and Computer Engineering and Mathematical Sciences, with a minor in Physics, from [Seoul National University](https://en.snu.ac.kr), graduating with the highest distinction.
 
-[[CV] (last updated: 08/17/2026)](../assets/pdf/cv_jongha.pdf)
+Before joining Penn State, I was a postdoc at [MIT EECS](https://www.eecs.mit.edu/) and [RLE](https://www.rle.mit.edu), hosted by [Gregory W. Wornell](http://allegro.mit.edu/~gww/). I received my Ph.D. in Electrical Engineering from [UC San Diego](https://ucsd.edu/), advised by [Young-Han Kim](https://web.eng.ucsd.edu/~yhk/) and [Sanjoy Dasgupta](https://cseweb.ucsd.edu/~dasgupta/), with support from the [Kwanjeong Educational Foundation](http://www.ikef.or.kr/). I earned dual B.S. degrees in Electrical and Computer Engineering and Mathematical Sciences, with a minor in Physics, from [Seoul National University](https://en.snu.ac.kr), where I graduated with the highest distinction.
