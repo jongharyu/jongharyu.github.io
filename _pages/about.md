@@ -29,19 +29,21 @@ latest_posts:
 
 I am a Wormley Family Early Career Assistant Professor in the [Department of Computer Science and Engineering](https://www.eecs.psu.edu/) and a faculty co-hire in the [Institute for Computational and Data Sciences](https://icds.psu.edu/) at [Penn State](https://www.psu.edu/). 
 
-I develop the <span class="about-emphasis-1">mathematical and statistical foundations of scientific machine learning</span>. My work connects spectral learning, generative modeling, and uncertainty quantification to make scientific inference more scalable and reliable.
+I develop the <span class="about-emphasis-1">mathematical and statistical foundations of scientific machine learning</span>. My work connects <span class="about-emphasis-2">operator learning</span>, <span class="about-emphasis-2">generative modeling</span>, and <span class="about-emphasis-2">uncertainty quantification</span> to make scientific inference more scalable and reliable.
 
 My first name is pronounced **Jong-ha** (Korean: 종하), but I usually go by **Jon**.
 
 [CV (September 2026)]({{ site.data.socials.cv_pdf | relative_url }}) 
 
+**Prospective students:** I plan to recruit a PhD student to join my group in **Fall 2027**. Please see my [note to prospective students](/prospective-students/).
+
 ---
 
 ## research interests
 
-My recent research centers on by three questions:
+My recent research centers on three questions:
 
-- **[Operator learning](/research/neural-spectral-methods/):** How can we learn structured operator representations that preserve the essential dynamics and physics of complex systems?
+- **[Spectral operator learning](/research/neural-spectral-methods/):** How can we learn structured operator representations that preserve the essential dynamics and physics of complex systems?
 
 - **[Probabilistic and generative modeling](/research/probabilistic-modeling/):** How can we learn and generate from complex distributions when their densities are unknown or intractable?
 
