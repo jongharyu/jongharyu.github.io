@@ -23,6 +23,8 @@ Both proposals use a simple *nesting* strategy to learn ordered eigenfunctions d
 
 ## applications
 
+### computational physics and representation learning
+
 These tools can be applied to solving PDEs as well as representation learning for reinforcement learning and graph data as demonstrated in {% cite Ryu--Xu--Erol--Bu--Zheng--Wornell2024 %} and {% cite Ryu--Zhou--Wornell2025 %}.
 
 <div class="text-center">
@@ -47,6 +49,7 @@ These tools can be applied to solving PDEs as well as representation learning fo
     NestedLoRA can learn structured representations for complex datasets.
 </div>
 
+### nonlinear dynamics
 
 Another important application is **Koopman operator learning** for nonlinear dynamical systems. In {% cite Jeong--Ryu--Yun--Wornell2025 %}, we demonstrate that NestedLoRA (a.k.a. NeuralSVD) learns compact Koopman approximations more accurately and efficiently than VAMPnet and DPNet, enabling better long-horizon prediction and interpretable dynamical modes.
 
@@ -73,6 +76,10 @@ Another important application is **Koopman operator learning** for nonlinear dyn
 <div class="caption">
     NestedLoRA learns eigenfunctions of continuous-time Langevin dynamics.
 </div>
+
+### quantum chemistry
+
+We extend our NestedLoRA framework to **quantum excited-state computation** {% cite Jeong--Ryu--Yun--Wornell2026 %} (**NeurIPS 2026**). The new method, called **NestedLoRA-VMC**, learns states in energy order without overlap penalties, reducing the per-step Laplacian count from quadratic in the number of states (NES-VMC) to linear. We demonstrate that it achieves accuracy comparable to both NES-VMC and the penalty-based method for ten states of first-row atoms (Li–Ne).
 
 ## broader perspective
 
