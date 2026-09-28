@@ -35,7 +35,9 @@ My first name is pronounced **Jong-ha** (Korean: 종하), but I usually go by **
 
 [CV (September 2026)]({{ site.data.socials.cv_pdf | relative_url }}) 
 
-**Prospective students:** I plan to recruit a PhD student to join my group in **Fall 2027**. Please see my [note to prospective students](/prospective-students/).
+<div style="color:#b30000; border-left:4px solid #b30000; padding-left:10px; margin-top:8px;">
+  <strong>To prospective students:</strong> I plan to recruit a PhD student to join my group in <strong>Fall 2027</strong>. Please see my <a href="/prospective-students/">note to prospective students</a>.
+</div>
 
 ---
 

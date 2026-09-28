@@ -1,6 +1,6 @@
 ---
 layout: page
-title: notes to prospective students
+title: note to prospective students
 permalink: /prospective-students/
 nav: false
 ---
